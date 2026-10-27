@@ -1,0 +1,64 @@
+id: rice_black_bug
+name: Rice black bug
+summary: Rice black bug is associated with mild wet weather, but the weather response is weakly documented. These bands are unchecked starting points.
+confidence: low
+confidence_note: Low confidence. The weather response for rice black bug is less documented than the other three threats.
+season_role: modifier
+factors:
+  - id: temperature
+    label: Forecast temperature
+    required: true
+    weight: 0.10
+    field: temp_c
+    mode: peak
+    core: {min: 25, max: 29}
+    hard: {min: 18, max: 34}
+  - id: humidity
+    label: Forecast relative humidity
+    required: true
+    weight: 0.15
+    field: rh_pct
+    mode: high
+    favorable: {min: 75, max: 92}
+  - id: recent_rain
+    label: Rainfall over the last 7 days
+    required: false
+    weight: 0.15
+    field: rain_sum_7d
+    mode: high
+    favorable: {min: 20, max: 90}
+  - id: crop_stage
+    label: Crop stage
+    required: false
+    weight: 0.10
+    field: days_after_planting
+    mode: stage
+    stages:
+      - {max_day: 120, score: 0.75}
+      - {max_day: 10000, score: 0.15}
+  - id: spread
+    label: Canal or neighbor connection
+    required: false
+    weight: 0.15
+    field: canal_link
+    mode: high
+    favorable: {min: 0, max: 1}
+    note: Staggered planting, night lights, and weedy hosts are not loaded, so this factor is only the canal or river link.
+  - id: climate
+    label: Wet-season and El Niño modifier
+    required: false
+    weight: 0.25
+    field: climate_score
+    mode: high
+    favorable: {min: 0, max: 1}
+  - id: soil_moisture
+    label: Soil moisture
+    required: false
+    weight: 0.10
+    field: soil_moisture
+    mode: high
+    favorable: {min: 0.22, max: 0.40}
+cuts:
+  moderate: 0.35
+  high: 0.55
+  very_high: 0.72

@@ -1,0 +1,23 @@
+[
+  {
+    "indicator_id": "AG.CON.FERT.ZS",
+    "indicator": "Fertilizer consumption (kilograms per hectare of arable land)",
+    "year": 2024,
+    "value": 254.475491949911,
+    "source": "World Bank via API, CC BY, national Philippines series"
+  },
+  {
+    "indicator_id": "AG.YLD.CREL.KG",
+    "indicator": "Cereal yield (kg per hectare)",
+    "year": 2024,
+    "value": 3833.3,
+    "source": "World Bank via API, CC BY, national Philippines series"
+  },
+  {
+    "indicator_id": "AG.LND.AGRI.K2",
+    "indicator": "Agricultural land (sq. km)",
+    "year": 2024,
+    "value": 127455,
+    "source": "World Bank via API, CC BY, national Philippines series"
+  }
+]

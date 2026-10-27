@@ -1,0 +1,25 @@
+observed_on,municipality,barangay,threat_id,severity,hectares_affected,source,is_official
+2026-02-09,Guimba,,rice_black_bug,moderate,44,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-02-18,Licab,,rice_black_bug,moderate,36,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-02-24,Quezon,,rice_black_bug,low,12,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-02-27,Talugtug,,rice_black_bug,low,11,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-03-04,Nampicuan,,rice_black_bug,low,8,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-08-12,Gabaldon,,rice_blast,moderate,22,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-08-19,Laur,,rice_blast,moderate,46,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-08-24,Bongabon,,rice_blast,moderate,31,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-08-28,Palayan City,,rice_blast,low,7,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-09-03,Lupao,,rice_blast,low,17,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-09-08,Rizal,,rice_blast,low,9,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-09-15,Zaragoza,,bacterial_leaf_blight,moderate,52,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-09-19,Cabiao,,bacterial_leaf_blight,moderate,67,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-09-22,Jaen,,bacterial_leaf_blight,low,29,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-09-27,Aliaga,,bacterial_leaf_blight,low,21,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-10-02,San Antonio,,bacterial_leaf_blight,moderate,58,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-10-05,San Isidro,,bacterial_leaf_blight,low,16,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-09-21,Guimba,,brown_planthopper,high,210,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-09-25,Science City of Muñoz,,brown_planthopper,moderate,78,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-09-29,Talavera,,brown_planthopper,moderate,102,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-10-03,Santo Domingo,,brown_planthopper,low,24,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-10-04,Cuyapo,,brown_planthopper,moderate,66,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-10-09,San Jose City,,brown_planthopper,moderate,54,"Office of the Provincial Agriculturist, Nueva Ecija",true
+2026-10-11,Quezon,,brown_planthopper,low,19,"Office of the Provincial Agriculturist, Nueva Ecija",true

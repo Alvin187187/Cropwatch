@@ -1,0 +1,76 @@
+id: bacterial_leaf_blight
+name: Bacterial leaf blight
+summary: Bacterial leaf blight favors warm humid weather, heavy rain, and wind that wounds leaves. A strong-wind day keeps the class raised for the following two weeks of this forecast. These bands are unchecked starting points.
+confidence: moderate
+season_role: none
+factors:
+  - id: temperature
+    label: Forecast temperature
+    required: true
+    weight: 0.15
+    field: temp_c
+    mode: peak
+    core: {min: 28.5, max: 30.5}
+    hard: {min: 23, max: 36}
+  - id: humidity
+    label: Forecast relative humidity
+    required: true
+    weight: 0.15
+    field: rh_pct
+    mode: high
+    favorable: {min: 70, max: 95}
+  - id: recent_rain
+    label: Rainfall over the last 7 days
+    required: false
+    weight: 0.10
+    field: rain_sum_7d
+    mode: high
+    favorable: {min: 30, max: 120}
+  - id: forecast_rain
+    label: Forecast rainfall
+    required: false
+    weight: 0.10
+    field: rain_mm
+    mode: high
+    favorable: {min: 5, max: 40}
+  - id: storm
+    label: Wind or recent storm
+    required: false
+    weight: 0.20
+    field: wind_speed_kmh
+    mode: storm
+    note: Typhoon tracks are not loaded. Strong wind at 40 km/h or more, including the previous 14 days, stands in for a storm and stays raised on the following forecast days.
+  - id: crop_stage
+    label: Crop stage
+    required: false
+    weight: 0.15
+    field: days_after_planting
+    mode: stage
+    stages:
+      - {max_day: 20, score: 0.75}
+      - {max_day: 40, score: 0.45}
+      - {max_day: 90, score: 1.0}
+      - {max_day: 120, score: 0.30}
+      - {max_day: 10000, score: 0.05}
+  - id: spread
+    label: Flooding or canal connection
+    required: false
+    weight: 0.10
+    field: blb_spread
+    mode: high
+    favorable: {min: 0, max: 1}
+    note_unless: canal_link
+    note: Canal map is not loaded. Soil moisture stands in for flooding-related spread.
+  - id: nitrogen_variety
+    label: Nitrogen and variety
+    assumed_label: Nitrogen and variety (regional assumption)
+    required: false
+    weight: 0.05
+    field: nitrogen_kg_ha
+    mode: high
+    favorable: {min: 80, max: 150}
+    assumed_value: 110
+cuts:
+  moderate: 0.35
+  high: 0.55
+  very_high: 0.72

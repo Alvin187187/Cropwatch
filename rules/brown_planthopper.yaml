@@ -1,0 +1,77 @@
+id: brown_planthopper
+name: Brown planthopper
+summary: Brown planthopper favors warm humid weather without a washing rain. Heavy rain lowers the class. These bands are unchecked starting points.
+confidence: moderate
+season_role: modifier
+factors:
+  - id: temperature
+    label: Forecast temperature
+    required: true
+    weight: 0.20
+    field: temp_c
+    mode: peak
+    core: {min: 26.5, max: 28.5}
+    hard: {min: 20, max: 35}
+  - id: humidity
+    label: Forecast relative humidity
+    required: true
+    weight: 0.20
+    field: rh_pct
+    mode: peak
+    core: {min: 82, max: 88}
+    hard: {min: 70, max: 98}
+  - id: recent_rain
+    label: Heaviest rain day in the last 7 days
+    required: false
+    weight: 0.05
+    field: rain_max_7d
+    mode: heavy_penalty
+    favorable: {min: 0, max: 30}
+    heavy: 70
+  - id: forecast_rain
+    label: Forecast rainfall
+    required: false
+    weight: 0.05
+    field: rain_mm
+    mode: heavy_penalty
+    favorable: {min: 0, max: 25}
+    heavy: 60
+  - id: crop_stage
+    label: Crop stage
+    required: false
+    weight: 0.20
+    field: days_after_planting
+    mode: stage
+    stages:
+      - {max_day: 30, score: 0.20}
+      - {max_day: 50, score: 0.70}
+      - {max_day: 120, score: 1.0}
+      - {max_day: 10000, score: 0.10}
+  - id: spread
+    label: Canal or neighbor connection
+    required: false
+    weight: 0.15
+    field: canal_link
+    mode: high
+    favorable: {min: 0, max: 1}
+    note: Staggered planting and neighbor risk are not loaded, so this factor is only the canal or river link.
+  - id: nitrogen_variety
+    label: Nitrogen and variety
+    assumed_label: Nitrogen and variety (regional assumption)
+    required: false
+    weight: 0.10
+    field: nitrogen_kg_ha
+    mode: high
+    favorable: {min: 60, max: 140}
+    assumed_value: 110
+  - id: climate
+    label: Wet-season and El Niño modifier
+    required: false
+    weight: 0.05
+    field: climate_score
+    mode: high
+    favorable: {min: 0, max: 1}
+cuts:
+  moderate: 0.35
+  high: 0.55
+  very_high: 0.72

@@ -1,0 +1,9 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.env
+pgdata/
+.pytest_cache/
+data/boundaries/ph_adm2_simplified.geojson
+data/boundaries/ph_adm3_simplified.geojson

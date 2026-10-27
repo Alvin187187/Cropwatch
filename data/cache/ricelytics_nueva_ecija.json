@@ -1,0 +1,15 @@
+{
+  "source_name": "Ricelytics, DA-PhilRice Rice Data Analytics Center",
+  "source_url": "https://ricelytics.philrice.gov.ph/rice_industry?psgc_code=0304900000&locType=2",
+  "psgc_code": "0304900000",
+  "place": "Nueva Ecija",
+  "retrieved_on": "2026-10-18",
+  "note": "Provincial snapshot cached for offline defense use. These figures are not a barangay map. Cropping intensity was not published as a single number on the industry page.",
+  "farmers_as_of": "June 2026",
+  "farmers": 108064,
+  "period": "Semester 1 2026",
+  "production_mt": 1067752,
+  "harvested_ha": 165913,
+  "yield_t_ha": 6.44,
+  "cropping_intensity": null
+}

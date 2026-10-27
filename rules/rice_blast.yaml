@@ -1,0 +1,82 @@
+id: rice_blast
+name: Rice blast
+summary: Leaf and neck blast favor mild days, cool nights, and long stretches of near-saturated air. These bands are unchecked starting points.
+confidence: moderate
+season_role: none
+exposure_ndvi_min: 0.2
+gate:
+  min_hours: 6
+  rh_min: 90
+  temp_min: 20
+  temp_max: 28
+factors:
+  - id: leaf_wetness
+    label: Hours at or above 90% humidity
+    assumed_label: Hours at or above 90% humidity (estimated from the daily mean)
+    required: false
+    weight: 0.25
+    field: hours_rh90
+    assumed_flag: leaf_wetness_assumed
+    mode: high
+    favorable: {min: 2, max: 10}
+  - id: temperature
+    label: Forecast temperature
+    required: true
+    weight: 0.20
+    field: temp_c
+    mode: peak
+    core: {min: 24, max: 25.5}
+    hard: {min: 17, max: 32}
+    night:
+      field: temp_min_c
+      blend: 0.45
+      core: {min: 20, max: 24}
+      hard: {min: 15, max: 28}
+  - id: humidity
+    label: Forecast relative humidity
+    required: true
+    weight: 0.15
+    field: rh_pct
+    mode: high
+    favorable: {min: 75, max: 95}
+  - id: recent_rain
+    label: Rainfall over the last 7 days
+    required: false
+    weight: 0.10
+    field: rain_sum_7d
+    mode: band
+    favorable: {min: 15, max: 70}
+    soft: 25
+  - id: forecast_rain
+    label: Forecast rainfall
+    required: false
+    weight: 0.05
+    field: rain_mm
+    mode: light_rain
+    favorable: {min: 1, max: 15}
+    heavy: 50
+  - id: crop_stage
+    label: Crop stage
+    required: false
+    weight: 0.15
+    field: days_after_planting
+    mode: stage
+    stages:
+      - {max_day: 35, score: 1.0}
+      - {max_day: 55, score: 0.45}
+      - {max_day: 90, score: 1.0}
+      - {max_day: 120, score: 0.25}
+      - {max_day: 10000, score: 0.05}
+  - id: nitrogen_variety
+    label: Nitrogen and variety
+    assumed_label: Nitrogen and variety (regional assumption)
+    required: false
+    weight: 0.10
+    field: nitrogen_kg_ha
+    mode: high
+    favorable: {min: 80, max: 140}
+    assumed_value: 110
+cuts:
+  moderate: 0.35
+  high: 0.55
+  very_high: 0.72

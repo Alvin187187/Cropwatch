@@ -1,0 +1,882 @@
+municipality,barangay,rice_ha,planting_date,yield_t_ha,flood_ha,drought_ha,harvested_ha,source
+Aliaga,,5824,2026-07-20,6.53,105,13,451,PRiSM
+Bongabon,,4946,2026-08-07,4.32,20,125,0,PRiSM
+Cabanatuan City,,7435,2026-07-13,6.54,89,13,591,PRiSM
+Cabiao,,6568,2026-07-20,6.23,473,6,315,PRiSM
+Carranglan,,3373,2026-08-05,5.06,13,131,0,PRiSM
+City of Gapan,,6254,2026-07-17,6.46,194,11,444,PRiSM
+Cuyapo,,9912,2026-06-28,6.62,119,10,1879,PRiSM
+Gabaldon,,3169,2026-08-07,4.63,13,98,0,PRiSM
+General Mamerto Natividad,,5198,2026-07-16,6.26,62,7,266,PRiSM
+General Tinio,,2965,2026-08-07,4.95,12,109,0,PRiSM
+Guimba,,13181,2026-06-22,6.88,158,16,3004,PRiSM
+Jaen,,5921,2026-07-14,6.53,272,13,463,PRiSM
+Laur,,3285,2026-08-06,5.38,13,146,0,PRiSM
+Licab,,4311,2026-06-25,6.86,52,16,969,PRiSM
+Llanera,,4414,2026-07-20,6.57,53,14,363,PRiSM
+Lupao,,3358,2026-08-06,4.49,13,95,0,PRiSM
+Nampicuan,,3200,2026-06-20,6.72,38,12,656,PRiSM
+Palayan City,,2011,2026-08-02,4.82,8,69,0,PRiSM
+Pantabangan,,1527,2026-08-02,4.64,6,48,0,PRiSM
+Peñaranda,,3341,2026-07-17,6.61,40,15,286,PRiSM
+Quezon,,4117,2026-06-21,6.89,49,17,945,PRiSM
+Rizal,,3481,2026-08-06,5.38,14,156,0,PRiSM
+San Antonio,,8666,2026-07-13,6.37,529,9,536,PRiSM
+San Isidro,,3022,2026-07-20,6.62,118,15,263,PRiSM
+San Jose City,,8833,2026-06-25,6.87,106,16,2005,PRiSM
+San Leonardo,,2910,2026-07-20,6.16,76,4,120,PRiSM
+Santa Rosa,,5341,2026-07-14,6.26,85,7,273,PRiSM
+Santo Domingo,,4707,2026-07-17,6.56,56,14,379,PRiSM
+Science City of Muñoz,,7423,2026-06-22,6.77,89,14,1572,PRiSM
+Talavera,,7818,2026-06-28,7.1,94,22,2031,PRiSM
+Talugtug,,4494,2026-06-26,6.61,54,9,846,PRiSM
+Zaragoza,,4908,2026-07-19,6.31,265,8,274,PRiSM
+Aliaga,Betes,744.6,2026-07-20,6.53,13.4,,,PRiSM
+Aliaga,Bibiclat,837.7,2026-07-20,6.53,15.1,,,PRiSM
+Aliaga,Bucot,514.5,2026-07-20,6.53,9.3,,,PRiSM
+Aliaga,La Purisima,129.6,2026-07-20,6.53,2.3,,,PRiSM
+Aliaga,Macabucod,188.9,2026-07-20,6.53,3.4,,,PRiSM
+Aliaga,Magsaysay,306.6,2026-07-20,6.53,5.5,,,PRiSM
+Aliaga,Pantoc,72.5,2026-07-20,6.53,1.3,,,PRiSM
+Aliaga,Poblacion Centro,11.3,2026-07-20,6.53,0.2,,,PRiSM
+Aliaga,Poblacion East I,29.5,2026-07-20,6.53,0.5,,,PRiSM
+Aliaga,Poblacion East II,6.8,2026-07-20,6.53,0.1,,,PRiSM
+Aliaga,Poblacion West III,9.2,2026-07-20,6.53,0.2,,,PRiSM
+Aliaga,Poblacion West IV,6.9,2026-07-20,6.53,0.1,,,PRiSM
+Aliaga,San Carlos,349.7,2026-07-20,6.53,6.3,,,PRiSM
+Aliaga,San Emiliano,149.3,2026-07-20,6.53,2.7,,,PRiSM
+Aliaga,San Eustacio,169.9,2026-07-20,6.53,3.1,,,PRiSM
+Aliaga,San Felipe Bata,122.9,2026-07-20,6.53,2.2,,,PRiSM
+Aliaga,San Felipe Matanda,87.3,2026-07-20,6.53,1.6,,,PRiSM
+Aliaga,San Juan,245.0,2026-07-20,6.53,4.4,,,PRiSM
+Aliaga,San Pablo Bata,79.7,2026-07-20,6.53,1.4,,,PRiSM
+Aliaga,San Pablo Matanda,529.5,2026-07-20,6.53,9.5,,,PRiSM
+Aliaga,Santa Monica,240.2,2026-07-20,6.53,4.3,,,PRiSM
+Aliaga,Santiago,260.3,2026-07-20,6.53,4.7,,,PRiSM
+Aliaga,Santo Rosario,290.4,2026-07-20,6.53,5.2,,,PRiSM
+Aliaga,Santo Tomas,233.3,2026-07-20,6.53,4.2,,,PRiSM
+Aliaga,Sunson,70.7,2026-07-20,6.53,1.3,,,PRiSM
+Aliaga,Umangan,137.7,2026-07-20,6.53,2.5,,,PRiSM
+Bongabon,Antipolo,427.1,2026-08-07,4.32,1.7,,,PRiSM
+Bongabon,Ariendo,418.3,2026-08-07,4.32,1.7,,,PRiSM
+Bongabon,Bantug,15.0,2026-08-07,4.32,0.1,,,PRiSM
+Bongabon,Calaanan,241.1,2026-08-07,4.32,1.0,,,PRiSM
+Bongabon,Commercial (Pob.),3.1,2026-08-07,4.32,0.0,,,PRiSM
+Bongabon,Cruz,44.1,2026-08-07,4.32,0.2,,,PRiSM
+Bongabon,Curva (J. Tomacruz),20.1,2026-08-07,4.32,0.1,,,PRiSM
+Bongabon,Digmala,225.6,2026-08-07,4.32,0.9,,,PRiSM
+Bongabon,Kaingin (Pob.),23.4,2026-08-07,4.32,0.1,,,PRiSM
+Bongabon,Labi,2016.2,2026-08-07,4.32,8.2,,,PRiSM
+Bongabon,Larcon,134.6,2026-08-07,4.32,0.5,,,PRiSM
+Bongabon,Lusok,205.8,2026-08-07,4.32,0.8,,,PRiSM
+Bongabon,Macabaclay,93.7,2026-08-07,4.32,0.4,,,PRiSM
+Bongabon,Magtanggol (Pob.),33.1,2026-08-07,4.32,0.1,,,PRiSM
+Bongabon,Mantile (Pob.),7.1,2026-08-07,4.32,0.0,,,PRiSM
+Bongabon,Olivete,248.6,2026-08-07,4.32,1.0,,,PRiSM
+Bongabon,Palo Maria (Pob.),41.5,2026-08-07,4.32,0.2,,,PRiSM
+Bongabon,Pesa,195.7,2026-08-07,4.32,0.8,,,PRiSM
+Bongabon,Rizal (Pob.),89.4,2026-08-07,4.32,0.4,,,PRiSM
+Bongabon,Sampalucan (Pob.),3.3,2026-08-07,4.32,0.0,,,PRiSM
+Bongabon,San Roque (Pob.),11.8,2026-08-07,4.32,0.0,,,PRiSM
+Bongabon,Santor,184.2,2026-08-07,4.32,0.7,,,PRiSM
+Bongabon,Sinipit (Pob.),34.7,2026-08-07,4.32,0.1,,,PRiSM
+Bongabon,Sisilang na Ligaya (Pob.),3.1,2026-08-07,4.32,0.0,,,PRiSM
+Bongabon,Social (Pob.),6.9,2026-08-07,4.32,0.0,,,PRiSM
+Bongabon,Tugatug,139.0,2026-08-07,4.32,0.6,,,PRiSM
+Bongabon,Tulay na Bato (Pob.),15.1,2026-08-07,4.32,0.1,,,PRiSM
+Bongabon,Vega,64.4,2026-08-07,4.32,0.3,,,PRiSM
+Cabanatuan City,Aduas Centro (Aduas),26.0,2026-07-13,6.54,0.3,,,PRiSM
+Cabanatuan City,Aduas Norte,26.2,2026-07-13,6.54,0.3,,,PRiSM
+Cabanatuan City,Aduas Sur,15.8,2026-07-13,6.54,0.2,,,PRiSM
+Cabanatuan City,Bagong Buhay,56.0,2026-07-13,6.54,0.7,,,PRiSM
+Cabanatuan City,Bagong Sikat,122.0,2026-07-13,6.54,1.5,,,PRiSM
+Cabanatuan City,Bakero,129.3,2026-07-13,6.54,1.5,,,PRiSM
+Cabanatuan City,Bakod Bayan,604.1,2026-07-13,6.54,7.2,,,PRiSM
+Cabanatuan City,Balite,191.4,2026-07-13,6.54,2.3,,,PRiSM
+Cabanatuan City,Bangad,300.1,2026-07-13,6.54,3.6,,,PRiSM
+Cabanatuan City,Bantug Bulalo,11.5,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Bantug Norte,58.1,2026-07-13,6.54,0.7,,,PRiSM
+Cabanatuan City,Barlis,129.7,2026-07-13,6.54,1.6,,,PRiSM
+Cabanatuan City,Barrera District (Pob.),11.5,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Bernardo District (Pob.),9.0,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Bitas,74.2,2026-07-13,6.54,0.9,,,PRiSM
+Cabanatuan City,Bonifacio District (Pob.),8.0,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Buliran,70.6,2026-07-13,6.54,0.8,,,PRiSM
+Cabanatuan City,Caalibangbangan,333.8,2026-07-13,6.54,4.0,,,PRiSM
+Cabanatuan City,Cabu,220.3,2026-07-13,6.54,2.6,,,PRiSM
+Cabanatuan City,Calawagan (Kalawagan),74.8,2026-07-13,6.54,0.9,,,PRiSM
+Cabanatuan City,Campo Tinio,95.4,2026-07-13,6.54,1.1,,,PRiSM
+Cabanatuan City,Caridad,4.3,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Caudillo,143.6,2026-07-13,6.54,1.7,,,PRiSM
+Cabanatuan City,Cinco-Cinco,76.6,2026-07-13,6.54,0.9,,,PRiSM
+Cabanatuan City,City Supermarket (Pob.),5.3,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Communal,95.0,2026-07-13,6.54,1.1,,,PRiSM
+Cabanatuan City,Cruz Roja,162.2,2026-07-13,6.54,1.9,,,PRiSM
+Cabanatuan City,Daang Sarile,94.2,2026-07-13,6.54,1.1,,,PRiSM
+Cabanatuan City,Dalampang,87.3,2026-07-13,6.54,1.0,,,PRiSM
+Cabanatuan City,Dicarma (Pob.),6.2,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Dimasalang (Pob.),3.4,2026-07-13,6.54,0.0,,,PRiSM
+Cabanatuan City,Dionisio S. Garcia,68.8,2026-07-13,6.54,0.8,,,PRiSM
+Cabanatuan City,Fatima (Pob.),2.9,2026-07-13,6.54,0.0,,,PRiSM
+Cabanatuan City,General Luna (Pob.),1.1,2026-07-13,6.54,0.0,,,PRiSM
+Cabanatuan City,"Hermogenes C. Concepcion, Sr.",85.0,2026-07-13,6.54,1.0,,,PRiSM
+Cabanatuan City,Ibabao Bana,81.7,2026-07-13,6.54,1.0,,,PRiSM
+Cabanatuan City,Imelda District,7.8,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Isla (Pob.),64.0,2026-07-13,6.54,0.8,,,PRiSM
+Cabanatuan City,Kalikid Norte,190.6,2026-07-13,6.54,2.3,,,PRiSM
+Cabanatuan City,Kalikid Sur,165.4,2026-07-13,6.54,2.0,,,PRiSM
+Cabanatuan City,Kapitan Pepe (Pob.),33.6,2026-07-13,6.54,0.4,,,PRiSM
+Cabanatuan City,Lagare,90.3,2026-07-13,6.54,1.1,,,PRiSM
+Cabanatuan City,Lourdes (Matungal-tungal),47.2,2026-07-13,6.54,0.6,,,PRiSM
+Cabanatuan City,Mabini Extension,10.1,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Mabini Homesite,14.5,2026-07-13,6.54,0.2,,,PRiSM
+Cabanatuan City,Macatbong,207.3,2026-07-13,6.54,2.5,,,PRiSM
+Cabanatuan City,Magsaysay District,35.7,2026-07-13,6.54,0.4,,,PRiSM
+Cabanatuan City,Magsaysay South,7.7,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Maria Theresa,4.5,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Matadero (Pob.),2.8,2026-07-13,6.54,0.0,,,PRiSM
+Cabanatuan City,Mayapyap Norte,8.0,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Mayapyap Sur,122.1,2026-07-13,6.54,1.5,,,PRiSM
+Cabanatuan City,Melojavilla (Pob.),3.4,2026-07-13,6.54,0.0,,,PRiSM
+Cabanatuan City,M. S. Garcia,9.7,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Nabao (Pob.),3.2,2026-07-13,6.54,0.0,,,PRiSM
+Cabanatuan City,Obrero,100.0,2026-07-13,6.54,1.2,,,PRiSM
+Cabanatuan City,Padre Burgos (Pob.),1.9,2026-07-13,6.54,0.0,,,PRiSM
+Cabanatuan City,Padre Crisostomo,10.8,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Pagas,35.9,2026-07-13,6.54,0.4,,,PRiSM
+Cabanatuan City,Palagay,360.4,2026-07-13,6.54,4.3,,,PRiSM
+Cabanatuan City,Pamaldan,127.5,2026-07-13,6.54,1.5,,,PRiSM
+Cabanatuan City,Pangatian,90.5,2026-07-13,6.54,1.1,,,PRiSM
+Cabanatuan City,Patalac,232.0,2026-07-13,6.54,2.8,,,PRiSM
+Cabanatuan City,Polilio,234.7,2026-07-13,6.54,2.8,,,PRiSM
+Cabanatuan City,Pula,114.8,2026-07-13,6.54,1.4,,,PRiSM
+Cabanatuan City,Quezon District (Pob.),5.9,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Rizdelis (Pob.),2.0,2026-07-13,6.54,0.0,,,PRiSM
+Cabanatuan City,Samon,25.6,2026-07-13,6.54,0.3,,,PRiSM
+Cabanatuan City,Sanbermicristi (Pob.),1.7,2026-07-13,6.54,0.0,,,PRiSM
+Cabanatuan City,Sangitan,16.3,2026-07-13,6.54,0.2,,,PRiSM
+Cabanatuan City,Sangitan East,6.6,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,San Isidro,162.9,2026-07-13,6.54,1.9,,,PRiSM
+Cabanatuan City,San Josef Norte,13.2,2026-07-13,6.54,0.2,,,PRiSM
+Cabanatuan City,San Josef Sur,33.2,2026-07-13,6.54,0.4,,,PRiSM
+Cabanatuan City,San Juan Pob. (Acofa),30.1,2026-07-13,6.54,0.4,,,PRiSM
+Cabanatuan City,San Roque Norte,3.2,2026-07-13,6.54,0.0,,,PRiSM
+Cabanatuan City,San Roque Sur,6.5,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Santa Arcadia,365.3,2026-07-13,6.54,4.4,,,PRiSM
+Cabanatuan City,Santo Niño,39.5,2026-07-13,6.54,0.5,,,PRiSM
+Cabanatuan City,Sapang,136.0,2026-07-13,6.54,1.6,,,PRiSM
+Cabanatuan City,Sumacab Este,133.5,2026-07-13,6.54,1.6,,,PRiSM
+Cabanatuan City,Sumacab Norte,116.4,2026-07-13,6.54,1.4,,,PRiSM
+Cabanatuan City,Sumacab South,126.7,2026-07-13,6.54,1.5,,,PRiSM
+Cabanatuan City,Talipapa,114.9,2026-07-13,6.54,1.4,,,PRiSM
+Cabanatuan City,Valdefuente,52.6,2026-07-13,6.54,0.6,,,PRiSM
+Cabanatuan City,Valle Cruz,195.2,2026-07-13,6.54,2.3,,,PRiSM
+Cabanatuan City,Vijandre District (Pob.),5.4,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Villa Ofelia-Caridad,10.6,2026-07-13,6.54,0.1,,,PRiSM
+Cabanatuan City,Zulueta District (Pob.),9.9,2026-07-13,6.54,0.1,,,PRiSM
+Cabiao,Bagong Buhay,13.1,2026-07-20,6.23,0.9,,,PRiSM
+Cabiao,Bagong Sikat,1100.6,2026-07-20,6.23,79.3,,,PRiSM
+Cabiao,Bagong Silang,49.1,2026-07-20,6.23,3.5,,,PRiSM
+Cabiao,Concepcion,412.5,2026-07-20,6.23,29.7,,,PRiSM
+Cabiao,Entablado,279.4,2026-07-20,6.23,20.1,,,PRiSM
+Cabiao,Maligaya,48.7,2026-07-20,6.23,3.5,,,PRiSM
+Cabiao,Natividad North (Pob.),9.1,2026-07-20,6.23,0.7,,,PRiSM
+Cabiao,Natividad South (Pob.),13.9,2026-07-20,6.23,1.0,,,PRiSM
+Cabiao,Palasinan,53.9,2026-07-20,6.23,3.9,,,PRiSM
+Cabiao,Polilio,6.8,2026-07-20,6.23,0.5,,,PRiSM
+Cabiao,San Antonio,29.4,2026-07-20,6.23,2.1,,,PRiSM
+Cabiao,San Carlos,287.2,2026-07-20,6.23,20.7,,,PRiSM
+Cabiao,San Fernando Norte,340.6,2026-07-20,6.23,24.5,,,PRiSM
+Cabiao,San Fernando Sur,974.4,2026-07-20,6.23,70.2,,,PRiSM
+Cabiao,San Gregorio,11.6,2026-07-20,6.23,0.8,,,PRiSM
+Cabiao,San Juan North (Pob.),21.8,2026-07-20,6.23,1.6,,,PRiSM
+Cabiao,San Juan South (Pob.),4.2,2026-07-20,6.23,0.3,,,PRiSM
+Cabiao,San Roque,47.4,2026-07-20,6.23,3.4,,,PRiSM
+Cabiao,Santa Ines,381.1,2026-07-20,6.23,27.4,,,PRiSM
+Cabiao,Santa Isabel,540.6,2026-07-20,6.23,38.9,,,PRiSM
+Cabiao,Santa Rita,287.8,2026-07-20,6.23,20.7,,,PRiSM
+Cabiao,San Vicente,235.1,2026-07-20,6.23,16.9,,,PRiSM
+Cabiao,Sinipit,1419.7,2026-07-20,6.23,102.2,,,PRiSM
+Carranglan,Bantug,6.9,2026-08-05,5.06,0.0,,,PRiSM
+Carranglan,Bunga,450.9,2026-08-05,5.06,1.7,,,PRiSM
+Carranglan,Burgos,488.0,2026-08-05,5.06,1.9,,,PRiSM
+Carranglan,Capintalan,392.3,2026-08-05,5.06,1.5,,,PRiSM
+Carranglan,D. L. Maglanoc Pob. (Bgy.III),4.2,2026-08-05,5.06,0.0,,,PRiSM
+Carranglan,F. C. Otic Pob. (Bgy. II),5.9,2026-08-05,5.06,0.0,,,PRiSM
+Carranglan,General Luna,168.9,2026-08-05,5.06,0.7,,,PRiSM
+Carranglan,G. S. Rosario Pob. (Bgy. IV),7.6,2026-08-05,5.06,0.0,,,PRiSM
+Carranglan,Joson (Digidig),216.1,2026-08-05,5.06,0.8,,,PRiSM
+Carranglan,Minuli,168.4,2026-08-05,5.06,0.6,,,PRiSM
+Carranglan,Piut,286.2,2026-08-05,5.06,1.1,,,PRiSM
+Carranglan,Puncan,395.4,2026-08-05,5.06,1.5,,,PRiSM
+Carranglan,Putlan,136.6,2026-08-05,5.06,0.5,,,PRiSM
+Carranglan,R.A.Padilla (Baluarte),181.3,2026-08-05,5.06,0.7,,,PRiSM
+Carranglan,Salazar,256.2,2026-08-05,5.06,1.0,,,PRiSM
+Carranglan,San Agustin,198.4,2026-08-05,5.06,0.8,,,PRiSM
+Carranglan,T. L. Padilla Pob. (Bgy. I),9.7,2026-08-05,5.06,0.0,,,PRiSM
+City of Gapan,Balante,167.0,2026-07-17,6.46,5.2,,,PRiSM
+City of Gapan,Bayanihan,126.7,2026-07-17,6.46,3.9,,,PRiSM
+City of Gapan,Bulak,236.1,2026-07-17,6.46,7.3,,,PRiSM
+City of Gapan,Bungo,193.6,2026-07-17,6.46,6.0,,,PRiSM
+City of Gapan,Kapalangan,765.3,2026-07-17,6.46,23.7,,,PRiSM
+City of Gapan,Mabunga,101.6,2026-07-17,6.46,3.2,,,PRiSM
+City of Gapan,Maburak,317.3,2026-07-17,6.46,9.8,,,PRiSM
+City of Gapan,Mahipon,290.7,2026-07-17,6.46,9.0,,,PRiSM
+City of Gapan,Makabaclay,1953.5,2026-07-17,6.46,60.6,,,PRiSM
+City of Gapan,Malimba,82.6,2026-07-17,6.46,2.6,,,PRiSM
+City of Gapan,Mangino,166.6,2026-07-17,6.46,5.2,,,PRiSM
+City of Gapan,Marelo,128.7,2026-07-17,6.46,4.0,,,PRiSM
+City of Gapan,Pambuan,462.7,2026-07-17,6.46,14.4,,,PRiSM
+City of Gapan,Parcutela,52.2,2026-07-17,6.46,1.6,,,PRiSM
+City of Gapan,Puting Tubig,105.9,2026-07-17,6.46,3.3,,,PRiSM
+City of Gapan,San Lorenzo (Pob.),32.9,2026-07-17,6.46,1.0,,,PRiSM
+City of Gapan,San Nicolas,62.0,2026-07-17,6.46,1.9,,,PRiSM
+City of Gapan,San Roque,293.3,2026-07-17,6.46,9.1,,,PRiSM
+City of Gapan,Santa Cruz,191.6,2026-07-17,6.46,5.9,,,PRiSM
+City of Gapan,Santo Cristo Norte,200.9,2026-07-17,6.46,6.2,,,PRiSM
+City of Gapan,Santo Cristo Sur,286.8,2026-07-17,6.46,8.9,,,PRiSM
+City of Gapan,Santo Niño,12.1,2026-07-17,6.46,0.4,,,PRiSM
+City of Gapan,San Vicente (Pob.),23.9,2026-07-17,6.46,0.7,,,PRiSM
+Cuyapo,Baloy,880.3,2026-06-28,6.62,10.6,,,PRiSM
+Cuyapo,Bambanaba,625.9,2026-06-28,6.62,7.5,,,PRiSM
+Cuyapo,Bantug,458.1,2026-06-28,6.62,5.5,,,PRiSM
+Cuyapo,Bentigan,135.8,2026-06-28,6.62,1.6,,,PRiSM
+Cuyapo,Bibiclat,227.8,2026-06-28,6.62,2.7,,,PRiSM
+Cuyapo,Bonifacio,142.8,2026-06-28,6.62,1.7,,,PRiSM
+Cuyapo,Bued,94.5,2026-06-28,6.62,1.1,,,PRiSM
+Cuyapo,Bulala,79.2,2026-06-28,6.62,1.0,,,PRiSM
+Cuyapo,Burgos,245.1,2026-06-28,6.62,2.9,,,PRiSM
+Cuyapo,Cabatuan,220.7,2026-06-28,6.62,2.6,,,PRiSM
+Cuyapo,Cabileo,71.9,2026-06-28,6.62,0.9,,,PRiSM
+Cuyapo,Cacapasan,97.8,2026-06-28,6.62,1.2,,,PRiSM
+Cuyapo,Calancuasan Norte,126.3,2026-06-28,6.62,1.5,,,PRiSM
+Cuyapo,Calancuasan Sur,100.2,2026-06-28,6.62,1.2,,,PRiSM
+Cuyapo,Colosboa,1039.2,2026-06-28,6.62,12.5,,,PRiSM
+Cuyapo,Columbitin,147.7,2026-06-28,6.62,1.8,,,PRiSM
+Cuyapo,Curva,107.7,2026-06-28,6.62,1.3,,,PRiSM
+Cuyapo,District II (Pob. II),27.9,2026-06-28,6.62,0.3,,,PRiSM
+Cuyapo,District I (Pob. I),13.8,2026-06-28,6.62,0.2,,,PRiSM
+Cuyapo,District IV (Pob. IV),14.3,2026-06-28,6.62,0.2,,,PRiSM
+Cuyapo,District VIII (Pob. VIII),22.6,2026-06-28,6.62,0.3,,,PRiSM
+Cuyapo,District VII (Pob. VII),14.6,2026-06-28,6.62,0.2,,,PRiSM
+Cuyapo,District VI (Pob. VI),10.8,2026-06-28,6.62,0.1,,,PRiSM
+Cuyapo,District V (Pob. V),17.4,2026-06-28,6.62,0.2,,,PRiSM
+Cuyapo,Landig,127.9,2026-06-28,6.62,1.5,,,PRiSM
+Cuyapo,Latap,140.1,2026-06-28,6.62,1.7,,,PRiSM
+Cuyapo,Loob,101.7,2026-06-28,6.62,1.2,,,PRiSM
+Cuyapo,Luna,89.6,2026-06-28,6.62,1.1,,,PRiSM
+Cuyapo,Malbeg-Patalan,152.6,2026-06-28,6.62,1.8,,,PRiSM
+Cuyapo,Malineng,139.7,2026-06-28,6.62,1.7,,,PRiSM
+Cuyapo,Matindeg,116.8,2026-06-28,6.62,1.4,,,PRiSM
+Cuyapo,Maycaban,381.2,2026-06-28,6.62,4.6,,,PRiSM
+Cuyapo,Nagcuralan,279.3,2026-06-28,6.62,3.4,,,PRiSM
+Cuyapo,Nagmisahan,187.9,2026-06-28,6.62,2.3,,,PRiSM
+Cuyapo,Paitan Norte,235.1,2026-06-28,6.62,2.8,,,PRiSM
+Cuyapo,Paitan Sur,351.5,2026-06-28,6.62,4.2,,,PRiSM
+Cuyapo,Piglisan,70.2,2026-06-28,6.62,0.8,,,PRiSM
+Cuyapo,Pugo,16.8,2026-06-28,6.62,0.2,,,PRiSM
+Cuyapo,Rizal,404.8,2026-06-28,6.62,4.9,,,PRiSM
+Cuyapo,Sabit,179.8,2026-06-28,6.62,2.2,,,PRiSM
+Cuyapo,Salagusog,284.0,2026-06-28,6.62,3.4,,,PRiSM
+Cuyapo,San Antonio,177.1,2026-06-28,6.62,2.1,,,PRiSM
+Cuyapo,San Jose,14.6,2026-06-28,6.62,0.2,,,PRiSM
+Cuyapo,San Juan,325.8,2026-06-28,6.62,3.9,,,PRiSM
+Cuyapo,Santa Clara,114.7,2026-06-28,6.62,1.4,,,PRiSM
+Cuyapo,Santa Cruz,388.2,2026-06-28,6.62,4.7,,,PRiSM
+Cuyapo,Simimbaan,141.0,2026-06-28,6.62,1.7,,,PRiSM
+Cuyapo,Tagtagumbao,75.6,2026-06-28,6.62,0.9,,,PRiSM
+Cuyapo,Tutuloy,43.3,2026-06-28,6.62,0.5,,,PRiSM
+Cuyapo,Ungab,228.6,2026-06-28,6.62,2.7,,,PRiSM
+Cuyapo,Villaflores,221.7,2026-06-28,6.62,2.7,,,PRiSM
+Gabaldon,Bagong Sikat,83.4,2026-08-07,4.63,0.3,,,PRiSM
+Gabaldon,Bagting,753.6,2026-08-07,4.63,3.1,,,PRiSM
+Gabaldon,Bantug,258.4,2026-08-07,4.63,1.1,,,PRiSM
+Gabaldon,Bitulok (North Pob.),19.9,2026-08-07,4.63,0.1,,,PRiSM
+Gabaldon,Bugnan,337.9,2026-08-07,4.63,1.4,,,PRiSM
+Gabaldon,Calabasa,257.2,2026-08-07,4.63,1.1,,,PRiSM
+Gabaldon,Camachile,368.5,2026-08-07,4.63,1.5,,,PRiSM
+Gabaldon,Cuyapa,198.1,2026-08-07,4.63,0.8,,,PRiSM
+Gabaldon,Ligaya,529.7,2026-08-07,4.63,2.2,,,PRiSM
+Gabaldon,Macasandal,28.5,2026-08-07,4.63,0.1,,,PRiSM
+Gabaldon,Malinao,79.1,2026-08-07,4.63,0.3,,,PRiSM
+Gabaldon,Pantoc,81.3,2026-08-07,4.63,0.3,,,PRiSM
+Gabaldon,Pinamalisan,93.6,2026-08-07,4.63,0.4,,,PRiSM
+Gabaldon,Sawmill,34.4,2026-08-07,4.63,0.1,,,PRiSM
+Gabaldon,South Poblacion,2.4,2026-08-07,4.63,0.0,,,PRiSM
+Gabaldon,Tagumpay,43.0,2026-08-07,4.63,0.2,,,PRiSM
+General Mamerto Natividad,Balangkare Norte,198.3,2026-07-16,6.26,2.4,,,PRiSM
+General Mamerto Natividad,Balangkare Sur,161.3,2026-07-16,6.26,1.9,,,PRiSM
+General Mamerto Natividad,Balaring,372.3,2026-07-16,6.26,4.4,,,PRiSM
+General Mamerto Natividad,Belen,239.4,2026-07-16,6.26,2.9,,,PRiSM
+General Mamerto Natividad,Bravo,375.9,2026-07-16,6.26,4.5,,,PRiSM
+General Mamerto Natividad,Burol,189.6,2026-07-16,6.26,2.3,,,PRiSM
+General Mamerto Natividad,Kabulihan,173.4,2026-07-16,6.26,2.1,,,PRiSM
+General Mamerto Natividad,Mag-asawang Sampaloc,116.5,2026-07-16,6.26,1.4,,,PRiSM
+General Mamerto Natividad,Manarog,417.5,2026-07-16,6.26,5.0,,,PRiSM
+General Mamerto Natividad,Mataas na Kahoy,547.4,2026-07-16,6.26,6.5,,,PRiSM
+General Mamerto Natividad,Panacsac,141.6,2026-07-16,6.26,1.7,,,PRiSM
+General Mamerto Natividad,Picaleon,87.1,2026-07-16,6.26,1.0,,,PRiSM
+General Mamerto Natividad,Pinahan,446.9,2026-07-16,6.26,5.3,,,PRiSM
+General Mamerto Natividad,Platero,327.4,2026-07-16,6.26,3.9,,,PRiSM
+General Mamerto Natividad,Poblacion,79.8,2026-07-16,6.26,1.0,,,PRiSM
+General Mamerto Natividad,Pula,184.7,2026-07-16,6.26,2.2,,,PRiSM
+General Mamerto Natividad,Pulong Singkamas,286.2,2026-07-16,6.26,3.4,,,PRiSM
+General Mamerto Natividad,Sapang Bato,189.2,2026-07-16,6.26,2.3,,,PRiSM
+General Mamerto Natividad,Talabutab Norte,511.9,2026-07-16,6.26,6.1,,,PRiSM
+General Mamerto Natividad,Talabutab Sur,151.6,2026-07-16,6.26,1.8,,,PRiSM
+General Tinio,Bago,14.0,2026-08-07,4.95,0.1,,,PRiSM
+General Tinio,Concepcion,10.9,2026-08-07,4.95,0.0,,,PRiSM
+General Tinio,Nazareth,205.8,2026-08-07,4.95,0.8,,,PRiSM
+General Tinio,Padolina,9.9,2026-08-07,4.95,0.0,,,PRiSM
+General Tinio,Palale,408.7,2026-08-07,4.95,1.7,,,PRiSM
+General Tinio,Pias,466.0,2026-08-07,4.95,1.9,,,PRiSM
+General Tinio,Poblacion Central,1.6,2026-08-07,4.95,0.0,,,PRiSM
+General Tinio,Poblacion East,0.7,2026-08-07,4.95,0.0,,,PRiSM
+General Tinio,Poblacion West,1.3,2026-08-07,4.95,0.0,,,PRiSM
+General Tinio,Pulong Matong,3.2,2026-08-07,4.95,0.0,,,PRiSM
+General Tinio,Rio Chico,1798.9,2026-08-07,4.95,7.3,,,PRiSM
+General Tinio,Sampaguita,0.2,2026-08-07,4.95,0.0,,,PRiSM
+General Tinio,San Pedro (Pob.),43.8,2026-08-07,4.95,0.2,,,PRiSM
+Guimba,Agcano,296.2,2026-06-22,6.88,3.6,,,PRiSM
+Guimba,Ayos Lomboy,156.1,2026-06-22,6.88,1.9,,,PRiSM
+Guimba,Bacayao,123.4,2026-06-22,6.88,1.5,,,PRiSM
+Guimba,Bagong Barrio,209.2,2026-06-22,6.88,2.5,,,PRiSM
+Guimba,Balbalino,128.1,2026-06-22,6.88,1.5,,,PRiSM
+Guimba,Balingog East,81.6,2026-06-22,6.88,1.0,,,PRiSM
+Guimba,Balingog West,80.3,2026-06-22,6.88,1.0,,,PRiSM
+Guimba,Banitan,203.8,2026-06-22,6.88,2.4,,,PRiSM
+Guimba,Bantug,163.2,2026-06-22,6.88,2.0,,,PRiSM
+Guimba,Bulakid,97.0,2026-06-22,6.88,1.2,,,PRiSM
+Guimba,Bunol,276.8,2026-06-22,6.88,3.3,,,PRiSM
+Guimba,Caballero,372.9,2026-06-22,6.88,4.5,,,PRiSM
+Guimba,Cabaruan,183.6,2026-06-22,6.88,2.2,,,PRiSM
+Guimba,Caingin Tabing Ilog,228.4,2026-06-22,6.88,2.7,,,PRiSM
+Guimba,Calem,96.0,2026-06-22,6.88,1.2,,,PRiSM
+Guimba,Camiing,199.3,2026-06-22,6.88,2.4,,,PRiSM
+Guimba,Cardinal,211.6,2026-06-22,6.88,2.5,,,PRiSM
+Guimba,Casongsong,176.5,2026-06-22,6.88,2.1,,,PRiSM
+Guimba,Catimon,286.3,2026-06-22,6.88,3.4,,,PRiSM
+Guimba,Cavite,303.4,2026-06-22,6.88,3.6,,,PRiSM
+Guimba,Cawayan Bugtong,134.0,2026-06-22,6.88,1.6,,,PRiSM
+Guimba,Consuelo,44.5,2026-06-22,6.88,0.5,,,PRiSM
+Guimba,Culong,468.4,2026-06-22,6.88,5.6,,,PRiSM
+Guimba,Escano,50.3,2026-06-22,6.88,0.6,,,PRiSM
+Guimba,Faigal,247.7,2026-06-22,6.88,3.0,,,PRiSM
+Guimba,Galvan,102.9,2026-06-22,6.88,1.2,,,PRiSM
+Guimba,Guiset,25.4,2026-06-22,6.88,0.3,,,PRiSM
+Guimba,Lamorito,185.8,2026-06-22,6.88,2.2,,,PRiSM
+Guimba,Lennec,501.9,2026-06-22,6.88,6.0,,,PRiSM
+Guimba,Macamias,23.4,2026-06-22,6.88,0.3,,,PRiSM
+Guimba,Macapabellag,278.8,2026-06-22,6.88,3.3,,,PRiSM
+Guimba,Macatcatuit,181.9,2026-06-22,6.88,2.2,,,PRiSM
+Guimba,Manacsac,447.3,2026-06-22,6.88,5.4,,,PRiSM
+Guimba,Manggang Marikit,255.2,2026-06-22,6.88,3.1,,,PRiSM
+Guimba,Maturanoc,305.5,2026-06-22,6.88,3.7,,,PRiSM
+Guimba,Maybubon,517.4,2026-06-22,6.88,6.2,,,PRiSM
+Guimba,Naglabrahan,118.4,2026-06-22,6.88,1.4,,,PRiSM
+Guimba,Nagpandayan,190.2,2026-06-22,6.88,2.3,,,PRiSM
+Guimba,Narvacan I,240.4,2026-06-22,6.88,2.9,,,PRiSM
+Guimba,Narvacan II,124.6,2026-06-22,6.88,1.5,,,PRiSM
+Guimba,Pacac,428.5,2026-06-22,6.88,5.1,,,PRiSM
+Guimba,Partida I,215.5,2026-06-22,6.88,2.6,,,PRiSM
+Guimba,Partida II,77.7,2026-06-22,6.88,0.9,,,PRiSM
+Guimba,Pasong Inchic,120.2,2026-06-22,6.88,1.4,,,PRiSM
+Guimba,Saint John District (Pob.),32.3,2026-06-22,6.88,0.4,,,PRiSM
+Guimba,San Agustin,56.5,2026-06-22,6.88,0.7,,,PRiSM
+Guimba,San Andres,215.7,2026-06-22,6.88,2.6,,,PRiSM
+Guimba,San Bernardino,151.8,2026-06-22,6.88,1.8,,,PRiSM
+Guimba,San Marcelino,274.0,2026-06-22,6.88,3.3,,,PRiSM
+Guimba,San Miguel,300.5,2026-06-22,6.88,3.6,,,PRiSM
+Guimba,San Rafael,322.1,2026-06-22,6.88,3.9,,,PRiSM
+Guimba,San Roque,237.8,2026-06-22,6.88,2.9,,,PRiSM
+Guimba,Santa Ana,320.7,2026-06-22,6.88,3.8,,,PRiSM
+Guimba,Santa Cruz,99.4,2026-06-22,6.88,1.2,,,PRiSM
+Guimba,Santa Lucia,404.3,2026-06-22,6.88,4.8,,,PRiSM
+Guimba,Santa Veronica District (Pob.),27.3,2026-06-22,6.88,0.3,,,PRiSM
+Guimba,Santo Cristo District (Pob.),71.1,2026-06-22,6.88,0.9,,,PRiSM
+Guimba,Saranay District (Pob.),46.5,2026-06-22,6.88,0.6,,,PRiSM
+Guimba,Sinulatan,339.2,2026-06-22,6.88,4.1,,,PRiSM
+Guimba,Subol,235.5,2026-06-22,6.88,2.8,,,PRiSM
+Guimba,Tampac I,187.4,2026-06-22,6.88,2.2,,,PRiSM
+Guimba,Tampac II & III,116.7,2026-06-22,6.88,1.4,,,PRiSM
+Guimba,Triala,191.3,2026-06-22,6.88,2.3,,,PRiSM
+Guimba,Yuson,391.3,2026-06-22,6.88,4.7,,,PRiSM
+Jaen,Calabasa,410.8,2026-07-14,6.53,18.9,,,PRiSM
+Jaen,Dampulan (Pob.),60.2,2026-07-14,6.53,2.8,,,PRiSM
+Jaen,Don Mariano Marcos (Pob.),20.5,2026-07-14,6.53,0.9,,,PRiSM
+Jaen,Hilera,151.7,2026-07-14,6.53,7.0,,,PRiSM
+Jaen,Imbunia,166.3,2026-07-14,6.53,7.6,,,PRiSM
+Jaen,Imelda Pob. (Doña Aurora),31.6,2026-07-14,6.53,1.5,,,PRiSM
+Jaen,Lambakin,682.8,2026-07-14,6.53,31.4,,,PRiSM
+Jaen,Langla,64.3,2026-07-14,6.53,3.0,,,PRiSM
+Jaen,Magsalisi,157.7,2026-07-14,6.53,7.2,,,PRiSM
+Jaen,Malabon-Kaingin,135.5,2026-07-14,6.53,6.2,,,PRiSM
+Jaen,Marawa,187.4,2026-07-14,6.53,8.6,,,PRiSM
+Jaen,Niyugan,318.9,2026-07-14,6.53,14.6,,,PRiSM
+Jaen,Ocampo-Rivera District (Pob.),6.3,2026-07-14,6.53,0.3,,,PRiSM
+Jaen,Pakol,146.5,2026-07-14,6.53,6.7,,,PRiSM
+Jaen,Pamacpacan,776.5,2026-07-14,6.53,35.7,,,PRiSM
+Jaen,Pinanggaan,463.1,2026-07-14,6.53,21.3,,,PRiSM
+Jaen,Putlod,120.7,2026-07-14,6.53,5.5,,,PRiSM
+Jaen,San Jose,209.0,2026-07-14,6.53,9.6,,,PRiSM
+Jaen,San Josef (Nabao),31.7,2026-07-14,6.53,1.5,,,PRiSM
+Jaen,San Pablo,496.0,2026-07-14,6.53,22.8,,,PRiSM
+Jaen,San Roque,12.4,2026-07-14,6.53,0.6,,,PRiSM
+Jaen,Santa Rita,128.5,2026-07-14,6.53,5.9,,,PRiSM
+Jaen,Santo Tomas North,115.4,2026-07-14,6.53,5.3,,,PRiSM
+Jaen,Santo Tomas South,75.8,2026-07-14,6.53,3.5,,,PRiSM
+Jaen,San Vicente,388.3,2026-07-14,6.53,17.8,,,PRiSM
+Jaen,Sapang,207.9,2026-07-14,6.53,9.6,,,PRiSM
+Jaen,Ulanin-Pitak,355.2,2026-07-14,6.53,16.3,,,PRiSM
+Laur,Barangay III (Pob.),37.9,2026-08-06,5.38,0.1,,,PRiSM
+Laur,Barangay II (Pob.),8.7,2026-08-06,5.38,0.0,,,PRiSM
+Laur,Barangay I (Pob.),48.0,2026-08-06,5.38,0.2,,,PRiSM
+Laur,Barangay IV (Pob.),15.9,2026-08-06,5.38,0.1,,,PRiSM
+Laur,Betania,68.4,2026-08-06,5.38,0.3,,,PRiSM
+Laur,Canantong,454.2,2026-08-06,5.38,1.8,,,PRiSM
+Laur,Nauzon,1131.7,2026-08-06,5.38,4.5,,,PRiSM
+Laur,Pangarulong,63.9,2026-08-06,5.38,0.3,,,PRiSM
+Laur,Pinagbayanan,95.7,2026-08-06,5.38,0.4,,,PRiSM
+Laur,Sagana,131.2,2026-08-06,5.38,0.5,,,PRiSM
+Laur,San Felipe,180.0,2026-08-06,5.38,0.7,,,PRiSM
+Laur,San Fernando,105.5,2026-08-06,5.38,0.4,,,PRiSM
+Laur,San Isidro,292.6,2026-08-06,5.38,1.2,,,PRiSM
+Laur,San Josef,83.2,2026-08-06,5.38,0.3,,,PRiSM
+Laur,San Juan,196.3,2026-08-06,5.38,0.8,,,PRiSM
+Laur,San Vicente,217.3,2026-08-06,5.38,0.9,,,PRiSM
+Laur,Siclong,154.5,2026-08-06,5.38,0.6,,,PRiSM
+Licab,Aquino,944.9,2026-06-25,6.86,11.4,,,PRiSM
+Licab,Linao,243.2,2026-06-25,6.86,2.9,,,PRiSM
+Licab,Poblacion Norte,16.3,2026-06-25,6.86,0.2,,,PRiSM
+Licab,Poblacion Sur,25.9,2026-06-25,6.86,0.3,,,PRiSM
+Licab,San Casimiro,212.9,2026-06-25,6.86,2.6,,,PRiSM
+Licab,San Cristobal,195.5,2026-06-25,6.86,2.4,,,PRiSM
+Licab,San Jose,310.1,2026-06-25,6.86,3.7,,,PRiSM
+Licab,San Juan,676.2,2026-06-25,6.86,8.2,,,PRiSM
+Licab,Santa Maria,848.0,2026-06-25,6.86,10.2,,,PRiSM
+Licab,Tabing Ilog,225.1,2026-06-25,6.86,2.7,,,PRiSM
+Licab,Villarosa,612.9,2026-06-25,6.86,7.4,,,PRiSM
+Llanera,A. Bonifacio,261.5,2026-07-20,6.57,3.1,,,PRiSM
+Llanera,Bagumbayan (Pob.),468.1,2026-07-20,6.57,5.6,,,PRiSM
+Llanera,Bosque,200.5,2026-07-20,6.57,2.4,,,PRiSM
+Llanera,Caridad Norte,107.0,2026-07-20,6.57,1.3,,,PRiSM
+Llanera,Caridad Sur,120.6,2026-07-20,6.57,1.4,,,PRiSM
+Llanera,Casile,182.8,2026-07-20,6.57,2.2,,,PRiSM
+Llanera,Florida Blanca,91.6,2026-07-20,6.57,1.1,,,PRiSM
+Llanera,General Luna,381.4,2026-07-20,6.57,4.6,,,PRiSM
+Llanera,General Ricarte,117.7,2026-07-20,6.57,1.4,,,PRiSM
+Llanera,Gomez,162.8,2026-07-20,6.57,2.0,,,PRiSM
+Llanera,Inanama,75.0,2026-07-20,6.57,0.9,,,PRiSM
+Llanera,Ligaya,74.3,2026-07-20,6.57,0.9,,,PRiSM
+Llanera,Mabini,61.8,2026-07-20,6.57,0.7,,,PRiSM
+Llanera,Murcon,529.9,2026-07-20,6.57,6.4,,,PRiSM
+Llanera,Plaridel,71.8,2026-07-20,6.57,0.9,,,PRiSM
+Llanera,San Felipe,349.3,2026-07-20,6.57,4.2,,,PRiSM
+Llanera,San Francisco,344.3,2026-07-20,6.57,4.1,,,PRiSM
+Llanera,San Nicolas,114.4,2026-07-20,6.57,1.4,,,PRiSM
+Llanera,Santa Barbara,240.2,2026-07-20,6.57,2.9,,,PRiSM
+Llanera,San Vicente,48.7,2026-07-20,6.57,0.6,,,PRiSM
+Llanera,Victoria,261.3,2026-07-20,6.57,3.1,,,PRiSM
+Llanera,Villa Viniegas,149.0,2026-07-20,6.57,1.8,,,PRiSM
+Lupao,Agupalo Este,86.4,2026-08-06,4.49,0.3,,,PRiSM
+Lupao,Agupalo Weste,85.1,2026-08-06,4.49,0.3,,,PRiSM
+Lupao,Alalay Chica,64.5,2026-08-06,4.49,0.2,,,PRiSM
+Lupao,Alalay Grande,153.4,2026-08-06,4.49,0.6,,,PRiSM
+Lupao,Bagong Flores,90.0,2026-08-06,4.49,0.3,,,PRiSM
+Lupao,Balbalungao,217.9,2026-08-06,4.49,0.8,,,PRiSM
+Lupao,Burgos,133.4,2026-08-06,4.49,0.5,,,PRiSM
+Lupao,Cordero,61.9,2026-08-06,4.49,0.2,,,PRiSM
+Lupao,J. U. Tienzo (Arimal),12.0,2026-08-06,4.49,0.0,,,PRiSM
+Lupao,Mapangpang,96.3,2026-08-06,4.49,0.4,,,PRiSM
+Lupao,Namulandayan,311.4,2026-08-06,4.49,1.2,,,PRiSM
+Lupao,Parista,416.0,2026-08-06,4.49,1.6,,,PRiSM
+Lupao,Poblacion East,5.3,2026-08-06,4.49,0.0,,,PRiSM
+Lupao,Poblacion North,3.2,2026-08-06,4.49,0.0,,,PRiSM
+Lupao,Poblacion South,3.5,2026-08-06,4.49,0.0,,,PRiSM
+Lupao,Poblacion West,1.4,2026-08-06,4.49,0.0,,,PRiSM
+Lupao,Salvacion I,117.9,2026-08-06,4.49,0.5,,,PRiSM
+Lupao,Salvacion II,160.5,2026-08-06,4.49,0.6,,,PRiSM
+Lupao,San Antonio Este,159.1,2026-08-06,4.49,0.6,,,PRiSM
+Lupao,San Antonio Weste,67.6,2026-08-06,4.49,0.3,,,PRiSM
+Lupao,San Isidro,541.4,2026-08-06,4.49,2.1,,,PRiSM
+Lupao,San Pedro,139.1,2026-08-06,4.49,0.5,,,PRiSM
+Lupao,San Roque,197.7,2026-08-06,4.49,0.8,,,PRiSM
+Lupao,Santo Domingo,233.0,2026-08-06,4.49,0.9,,,PRiSM
+Nampicuan,Alemania,350.2,2026-06-20,6.72,4.2,,,PRiSM
+Nampicuan,Ambasador Alzate Village,336.1,2026-06-20,6.72,4.0,,,PRiSM
+Nampicuan,Cabaducan East (Pob.),202.4,2026-06-20,6.72,2.4,,,PRiSM
+Nampicuan,Cabaducan West (Pob.),8.5,2026-06-20,6.72,0.1,,,PRiSM
+Nampicuan,Cabawangan,414.2,2026-06-20,6.72,4.9,,,PRiSM
+Nampicuan,East Central Poblacion,2.1,2026-06-20,6.72,0.0,,,PRiSM
+Nampicuan,Edy,211.3,2026-06-20,6.72,2.5,,,PRiSM
+Nampicuan,Estacion (Pob.),204.4,2026-06-20,6.72,2.4,,,PRiSM
+Nampicuan,Maeling,235.8,2026-06-20,6.72,2.8,,,PRiSM
+Nampicuan,Mayantoc,270.1,2026-06-20,6.72,3.2,,,PRiSM
+Nampicuan,Medico,58.8,2026-06-20,6.72,0.7,,,PRiSM
+Nampicuan,Monic,139.9,2026-06-20,6.72,1.7,,,PRiSM
+Nampicuan,North Poblacion,9.8,2026-06-20,6.72,0.1,,,PRiSM
+Nampicuan,Northwest Poblacion,4.8,2026-06-20,6.72,0.1,,,PRiSM
+Nampicuan,Recuerdo,588.7,2026-06-20,6.72,7.0,,,PRiSM
+Nampicuan,South Central Poblacion,4.3,2026-06-20,6.72,0.1,,,PRiSM
+Nampicuan,Southeast Poblacion,2.2,2026-06-20,6.72,0.0,,,PRiSM
+Nampicuan,Southwest Poblacion,2.8,2026-06-20,6.72,0.0,,,PRiSM
+Nampicuan,Tony,138.4,2026-06-20,6.72,1.6,,,PRiSM
+Nampicuan,West Central Poblacion,13.3,2026-06-20,6.72,0.2,,,PRiSM
+Nampicuan,West Poblacion,1.9,2026-06-20,6.72,0.0,,,PRiSM
+Palayan City,Atate,45.5,2026-08-02,4.82,0.2,,,PRiSM
+Palayan City,Aulo,149.3,2026-08-02,4.82,0.6,,,PRiSM
+Palayan City,Bagong Buhay,82.3,2026-08-02,4.82,0.3,,,PRiSM
+Palayan City,Bo. Militar (Fort Magsaysay),344.8,2026-08-02,4.82,1.4,,,PRiSM
+Palayan City,Caballero,257.9,2026-08-02,4.82,1.0,,,PRiSM
+Palayan City,Caimito,15.9,2026-08-02,4.82,0.1,,,PRiSM
+Palayan City,Doña Josefa,176.5,2026-08-02,4.82,0.7,,,PRiSM
+Palayan City,Ganaderia,10.7,2026-08-02,4.82,0.0,,,PRiSM
+Palayan City,Imelda Valley,94.9,2026-08-02,4.82,0.4,,,PRiSM
+Palayan City,Langka,107.4,2026-08-02,4.82,0.4,,,PRiSM
+Palayan City,Malate (Pob.),65.4,2026-08-02,4.82,0.3,,,PRiSM
+Palayan City,Maligaya,197.8,2026-08-02,4.82,0.8,,,PRiSM
+Palayan City,Manacnac,58.6,2026-08-02,4.82,0.2,,,PRiSM
+Palayan City,Mapait,118.1,2026-08-02,4.82,0.5,,,PRiSM
+Palayan City,Marcos Village,38.5,2026-08-02,4.82,0.2,,,PRiSM
+Palayan City,Popolon Pagas,75.7,2026-08-02,4.82,0.3,,,PRiSM
+Palayan City,Santolan,35.7,2026-08-02,4.82,0.1,,,PRiSM
+Palayan City,Sapang Buho,44.4,2026-08-02,4.82,0.2,,,PRiSM
+Palayan City,Singalat,91.6,2026-08-02,4.82,0.4,,,PRiSM
+Pantabangan,Cadaclan,84.8,2026-08-02,4.64,0.3,,,PRiSM
+Pantabangan,Cambitala,54.7,2026-08-02,4.64,0.2,,,PRiSM
+Pantabangan,Conversion,268.7,2026-08-02,4.64,1.1,,,PRiSM
+Pantabangan,Fatima,105.9,2026-08-02,4.64,0.4,,,PRiSM
+Pantabangan,Ganduz,24.1,2026-08-02,4.64,0.1,,,PRiSM
+Pantabangan,Liberty,123.5,2026-08-02,4.64,0.5,,,PRiSM
+Pantabangan,Malbang,219.4,2026-08-02,4.64,0.9,,,PRiSM
+Pantabangan,Marikit,65.3,2026-08-02,4.64,0.3,,,PRiSM
+Pantabangan,Napon-Napon,53.8,2026-08-02,4.64,0.2,,,PRiSM
+Pantabangan,Poblacion East,18.1,2026-08-02,4.64,0.1,,,PRiSM
+Pantabangan,Poblacion West,54.2,2026-08-02,4.64,0.2,,,PRiSM
+Pantabangan,Sampaloc,119.6,2026-08-02,4.64,0.5,,,PRiSM
+Pantabangan,San Juan,94.5,2026-08-02,4.64,0.4,,,PRiSM
+Pantabangan,Villarica,240.4,2026-08-02,4.64,0.9,,,PRiSM
+Peñaranda,Callos,517.2,2026-07-17,6.61,6.2,,,PRiSM
+Peñaranda,Las Piñas,1129.7,2026-07-17,6.61,13.5,,,PRiSM
+Peñaranda,Poblacion I,23.8,2026-07-17,6.61,0.3,,,PRiSM
+Peñaranda,Poblacion II,18.5,2026-07-17,6.61,0.2,,,PRiSM
+Peñaranda,Poblacion III,4.5,2026-07-17,6.61,0.1,,,PRiSM
+Peñaranda,Poblacion IV,12.5,2026-07-17,6.61,0.1,,,PRiSM
+Peñaranda,San Josef,265.4,2026-07-17,6.61,3.2,,,PRiSM
+Peñaranda,San Mariano (Maugat),341.0,2026-07-17,6.61,4.1,,,PRiSM
+Peñaranda,Santo Tomas,278.3,2026-07-17,6.61,3.3,,,PRiSM
+Peñaranda,Sinasajan,750.1,2026-07-17,6.61,9.0,,,PRiSM
+Quezon,Barangay II (Pob.),7.8,2026-06-21,6.89,0.1,,,PRiSM
+Quezon,Barangay I (Pob.),71.8,2026-06-21,6.89,0.9,,,PRiSM
+Quezon,Bertese,616.0,2026-06-21,6.89,7.3,,,PRiSM
+Quezon,Doña Lucia,62.9,2026-06-21,6.89,0.7,,,PRiSM
+Quezon,Dulong Bayan,175.3,2026-06-21,6.89,2.1,,,PRiSM
+Quezon,Ilog Baliwag,156.2,2026-06-21,6.89,1.9,,,PRiSM
+Quezon,Pulong Bahay,465.4,2026-06-21,6.89,5.5,,,PRiSM
+Quezon,San Alejandro,481.5,2026-06-21,6.89,5.7,,,PRiSM
+Quezon,San Andres I,262.8,2026-06-21,6.89,3.1,,,PRiSM
+Quezon,San Andres II,142.7,2026-06-21,6.89,1.7,,,PRiSM
+Quezon,San Manuel,117.5,2026-06-21,6.89,1.4,,,PRiSM
+Quezon,San Miguel,476.4,2026-06-21,6.89,5.7,,,PRiSM
+Quezon,Santa Clara,91.2,2026-06-21,6.89,1.1,,,PRiSM
+Quezon,Santa Rita,585.6,2026-06-21,6.89,7.0,,,PRiSM
+Quezon,Santo Cristo,105.5,2026-06-21,6.89,1.3,,,PRiSM
+Quezon,Santo Tomas Feria,298.4,2026-06-21,6.89,3.6,,,PRiSM
+Rizal,Agbannawag,32.9,2026-08-06,5.38,0.1,,,PRiSM
+Rizal,Aglipay (Curva),264.4,2026-08-06,5.38,1.1,,,PRiSM
+Rizal,Bicos,409.3,2026-08-06,5.38,1.6,,,PRiSM
+Rizal,Cabucbucan,105.6,2026-08-06,5.38,0.4,,,PRiSM
+Rizal,Calaocan District,56.5,2026-08-06,5.38,0.2,,,PRiSM
+Rizal,Canaan East,73.0,2026-08-06,5.38,0.3,,,PRiSM
+Rizal,Canaan West,27.8,2026-08-06,5.38,0.1,,,PRiSM
+Rizal,Casilagan,182.4,2026-08-06,5.38,0.7,,,PRiSM
+Rizal,Del Pilar,124.5,2026-08-06,5.38,0.5,,,PRiSM
+Rizal,Estrella,209.4,2026-08-06,5.38,0.8,,,PRiSM
+Rizal,General Luna,463.8,2026-08-06,5.38,1.9,,,PRiSM
+Rizal,Macapsing,225.8,2026-08-06,5.38,0.9,,,PRiSM
+Rizal,Maligaya,186.7,2026-08-06,5.38,0.8,,,PRiSM
+Rizal,Paco Roman,267.9,2026-08-06,5.38,1.1,,,PRiSM
+Rizal,Pag-asa,49.0,2026-08-06,5.38,0.2,,,PRiSM
+Rizal,Poblacion Central,1.4,2026-08-06,5.38,0.0,,,PRiSM
+Rizal,Poblacion East,3.7,2026-08-06,5.38,0.0,,,PRiSM
+Rizal,Poblacion Norte,14.4,2026-08-06,5.38,0.1,,,PRiSM
+Rizal,Poblacion Sur,11.4,2026-08-06,5.38,0.0,,,PRiSM
+Rizal,Poblacion West,24.2,2026-08-06,5.38,0.1,,,PRiSM
+Rizal,Portal,28.7,2026-08-06,5.38,0.1,,,PRiSM
+Rizal,San Esteban,29.8,2026-08-06,5.38,0.1,,,PRiSM
+Rizal,San Gregorio,383.9,2026-08-06,5.38,1.5,,,PRiSM
+Rizal,Santa Monica,153.4,2026-08-06,5.38,0.6,,,PRiSM
+Rizal,Villa Labrador,106.4,2026-08-06,5.38,0.4,,,PRiSM
+Rizal,Villa Paraiso,44.7,2026-08-06,5.38,0.2,,,PRiSM
+San Antonio,Buliran,428.9,2026-07-13,6.37,26.2,,,PRiSM
+San Antonio,Cama Juan,342.8,2026-07-13,6.37,20.9,,,PRiSM
+San Antonio,Julo,96.7,2026-07-13,6.37,5.9,,,PRiSM
+San Antonio,Lawang Kupang,179.1,2026-07-13,6.37,10.9,,,PRiSM
+San Antonio,Luyos,538.6,2026-07-13,6.37,32.9,,,PRiSM
+San Antonio,Maugat,71.0,2026-07-13,6.37,4.3,,,PRiSM
+San Antonio,Panabingan,532.7,2026-07-13,6.37,32.5,,,PRiSM
+San Antonio,Papaya,1517.8,2026-07-13,6.37,92.7,,,PRiSM
+San Antonio,Poblacion,10.7,2026-07-13,6.37,0.7,,,PRiSM
+San Antonio,San Francisco,821.2,2026-07-13,6.37,50.1,,,PRiSM
+San Antonio,San Jose,2481.4,2026-07-13,6.37,151.5,,,PRiSM
+San Antonio,San Mariano,464.7,2026-07-13,6.37,28.4,,,PRiSM
+San Antonio,Santa Barbara,391.1,2026-07-13,6.37,23.9,,,PRiSM
+San Antonio,Santa Cruz,65.6,2026-07-13,6.37,4.0,,,PRiSM
+San Antonio,Santo Cristo,700.6,2026-07-13,6.37,42.8,,,PRiSM
+San Antonio,Tikiw,23.1,2026-07-13,6.37,1.4,,,PRiSM
+San Isidro,Alua,191.7,2026-07-20,6.62,7.5,,,PRiSM
+San Isidro,Calaba,150.6,2026-07-20,6.62,5.9,,,PRiSM
+San Isidro,Malapit,116.3,2026-07-20,6.62,4.5,,,PRiSM
+San Isidro,Mangga,622.2,2026-07-20,6.62,24.3,,,PRiSM
+San Isidro,Poblacion,61.9,2026-07-20,6.62,2.4,,,PRiSM
+San Isidro,Pulo,798.7,2026-07-20,6.62,31.2,,,PRiSM
+San Isidro,San Roque,172.2,2026-07-20,6.62,6.7,,,PRiSM
+San Isidro,Sto. Cristo,141.5,2026-07-20,6.62,5.5,,,PRiSM
+San Isidro,Tabon,766.9,2026-07-20,6.62,29.9,,,PRiSM
+San Jose City,Abar 2nd,81.0,2026-06-25,6.87,1.0,,,PRiSM
+San Jose City,Abar Ist,67.1,2026-06-25,6.87,0.8,,,PRiSM
+San Jose City,A. Pascual,123.0,2026-06-25,6.87,1.5,,,PRiSM
+San Jose City,Bagong Sikat,398.5,2026-06-25,6.87,4.8,,,PRiSM
+San Jose City,Caanawan,190.9,2026-06-25,6.87,2.3,,,PRiSM
+San Jose City,Calaocan,192.1,2026-06-25,6.87,2.3,,,PRiSM
+San Jose City,Camanacsacan,262.5,2026-06-25,6.87,3.2,,,PRiSM
+San Jose City,Canuto Ramos Pob. (District III),8.8,2026-06-25,6.87,0.1,,,PRiSM
+San Jose City,Crisanto Sanchez Pob. (District V),3.1,2026-06-25,6.87,0.0,,,PRiSM
+San Jose City,Culaylay,314.7,2026-06-25,6.87,3.8,,,PRiSM
+San Jose City,Dizol,228.6,2026-06-25,6.87,2.7,,,PRiSM
+San Jose City,Ferdinand E. Marcos Pob. (District II),7.5,2026-06-25,6.87,0.1,,,PRiSM
+San Jose City,Kaliwanagan,164.3,2026-06-25,6.87,2.0,,,PRiSM
+San Jose City,Kita-Kita,208.1,2026-06-25,6.87,2.5,,,PRiSM
+San Jose City,Malasin,300.9,2026-06-25,6.87,3.6,,,PRiSM
+San Jose City,Manicla,291.6,2026-06-25,6.87,3.5,,,PRiSM
+San Jose City,Palestina,409.0,2026-06-25,6.87,4.9,,,PRiSM
+San Jose City,Parang Mangga,36.7,2026-06-25,6.87,0.4,,,PRiSM
+San Jose City,Pinili,313.4,2026-06-25,6.87,3.8,,,PRiSM
+San Jose City,Porais,109.2,2026-06-25,6.87,1.3,,,PRiSM
+San Jose City,"Rafael Rueda, Sr. Pob. (District I)",25.1,2026-06-25,6.87,0.3,,,PRiSM
+San Jose City,Raymundo Eugenio Pob. (District IV),7.6,2026-06-25,6.87,0.1,,,PRiSM
+San Jose City,San Agustin,271.3,2026-06-25,6.87,3.3,,,PRiSM
+San Jose City,San Juan,123.1,2026-06-25,6.87,1.5,,,PRiSM
+San Jose City,San Mauricio,292.3,2026-06-25,6.87,3.5,,,PRiSM
+San Jose City,Santo Niño 1st,175.1,2026-06-25,6.87,2.1,,,PRiSM
+San Jose City,Santo Niño 2nd,122.7,2026-06-25,6.87,1.5,,,PRiSM
+San Jose City,Santo Niño 3rd,1381.3,2026-06-25,6.87,16.6,,,PRiSM
+San Jose City,Santo Tomas,420.0,2026-06-25,6.87,5.0,,,PRiSM
+San Jose City,Sibut,43.7,2026-06-25,6.87,0.5,,,PRiSM
+San Jose City,Sinipit Bubon,175.0,2026-06-25,6.87,2.1,,,PRiSM
+San Jose City,Tabulac,74.0,2026-06-25,6.87,0.9,,,PRiSM
+San Jose City,Tayabo,423.6,2026-06-25,6.87,5.1,,,PRiSM
+San Jose City,Tondod,127.1,2026-06-25,6.87,1.5,,,PRiSM
+San Jose City,Tulat,186.4,2026-06-25,6.87,2.2,,,PRiSM
+San Jose City,Villa Floresca,592.4,2026-06-25,6.87,7.1,,,PRiSM
+San Jose City,Villa Joson (Parilla),466.8,2026-06-25,6.87,5.6,,,PRiSM
+San Jose City,Villa Marina,214.5,2026-06-25,6.87,2.6,,,PRiSM
+San Leonardo,Bonifacio District (Pob.),68.4,2026-07-20,6.16,1.8,,,PRiSM
+San Leonardo,Burgos District (Pob.),38.3,2026-07-20,6.16,1.0,,,PRiSM
+San Leonardo,Castellano,289.5,2026-07-20,6.16,7.6,,,PRiSM
+San Leonardo,Diversion,162.4,2026-07-20,6.16,4.2,,,PRiSM
+San Leonardo,Magpapalayoc,163.7,2026-07-20,6.16,4.3,,,PRiSM
+San Leonardo,Mallorca,203.6,2026-07-20,6.16,5.3,,,PRiSM
+San Leonardo,Mambangnan,178.7,2026-07-20,6.16,4.7,,,PRiSM
+San Leonardo,Nieves,403.5,2026-07-20,6.16,10.5,,,PRiSM
+San Leonardo,Rizal District (Pob.),103.7,2026-07-20,6.16,2.7,,,PRiSM
+San Leonardo,San Anton,421.3,2026-07-20,6.16,11.0,,,PRiSM
+San Leonardo,San Bartolome (Pob.),107.6,2026-07-20,6.16,2.8,,,PRiSM
+San Leonardo,San Roque,64.8,2026-07-20,6.16,1.7,,,PRiSM
+San Leonardo,Tabuating,312.7,2026-07-20,6.16,8.2,,,PRiSM
+San Leonardo,Tagumpay,146.2,2026-07-20,6.16,3.8,,,PRiSM
+San Leonardo,Tambo Adorable,245.6,2026-07-20,6.16,6.4,,,PRiSM
+Santa Rosa,Aguinaldo,11.7,2026-07-14,6.26,0.2,,,PRiSM
+Santa Rosa,Berang,100.3,2026-07-14,6.26,1.6,,,PRiSM
+Santa Rosa,Burgos,13.6,2026-07-14,6.26,0.2,,,PRiSM
+Santa Rosa,Cojuangco (Pob.),16.6,2026-07-14,6.26,0.3,,,PRiSM
+Santa Rosa,Del Pilar,12.9,2026-07-14,6.26,0.2,,,PRiSM
+Santa Rosa,Gomez,9.0,2026-07-14,6.26,0.1,,,PRiSM
+Santa Rosa,Inspector,65.4,2026-07-14,6.26,1.0,,,PRiSM
+Santa Rosa,Isla,78.8,2026-07-14,6.26,1.3,,,PRiSM
+Santa Rosa,La Fuente,72.8,2026-07-14,6.26,1.2,,,PRiSM
+Santa Rosa,Liwayway,575.0,2026-07-14,6.26,9.2,,,PRiSM
+Santa Rosa,Lourdes,16.1,2026-07-14,6.26,0.3,,,PRiSM
+Santa Rosa,Luna,176.2,2026-07-14,6.26,2.8,,,PRiSM
+Santa Rosa,Mabini,14.0,2026-07-14,6.26,0.2,,,PRiSM
+Santa Rosa,Malacañang,76.5,2026-07-14,6.26,1.2,,,PRiSM
+Santa Rosa,Maliolio,57.0,2026-07-14,6.26,0.9,,,PRiSM
+Santa Rosa,Mapalad,181.2,2026-07-14,6.26,2.9,,,PRiSM
+Santa Rosa,Rajal Centro,421.8,2026-07-14,6.26,6.7,,,PRiSM
+Santa Rosa,Rajal Norte,206.8,2026-07-14,6.26,3.3,,,PRiSM
+Santa Rosa,Rajal Sur,220.9,2026-07-14,6.26,3.5,,,PRiSM
+Santa Rosa,Rizal (Pob.),21.5,2026-07-14,6.26,0.3,,,PRiSM
+Santa Rosa,San Gregorio,5.5,2026-07-14,6.26,0.1,,,PRiSM
+Santa Rosa,San Isidro,309.6,2026-07-14,6.26,4.9,,,PRiSM
+Santa Rosa,San Josep,258.8,2026-07-14,6.26,4.1,,,PRiSM
+Santa Rosa,San Mariano,9.0,2026-07-14,6.26,0.1,,,PRiSM
+Santa Rosa,San Pedro,146.9,2026-07-14,6.26,2.3,,,PRiSM
+Santa Rosa,Santa Teresita,75.1,2026-07-14,6.26,1.2,,,PRiSM
+Santa Rosa,Santo Rosario,166.4,2026-07-14,6.26,2.6,,,PRiSM
+Santa Rosa,Sapsap,69.0,2026-07-14,6.26,1.1,,,PRiSM
+Santa Rosa,Soledad,1740.1,2026-07-14,6.26,27.7,,,PRiSM
+Santa Rosa,Tagpos,178.4,2026-07-14,6.26,2.8,,,PRiSM
+Santa Rosa,Tramo,10.5,2026-07-14,6.26,0.2,,,PRiSM
+Santa Rosa,Valenzuela (Pob.),20.5,2026-07-14,6.26,0.3,,,PRiSM
+Santa Rosa,Zamora (Pob.),3.1,2026-07-14,6.26,0.0,,,PRiSM
+Santo Domingo,Baloc,648.2,2026-07-17,6.56,7.7,,,PRiSM
+Santo Domingo,Buasao,165.4,2026-07-17,6.56,2.0,,,PRiSM
+Santo Domingo,Burgos,163.4,2026-07-17,6.56,1.9,,,PRiSM
+Santo Domingo,Cabugao,136.3,2026-07-17,6.56,1.6,,,PRiSM
+Santo Domingo,Casulucan,131.9,2026-07-17,6.56,1.6,,,PRiSM
+Santo Domingo,Comitang,245.2,2026-07-17,6.56,2.9,,,PRiSM
+Santo Domingo,Concepcion,75.5,2026-07-17,6.56,0.9,,,PRiSM
+Santo Domingo,Dolores,211.6,2026-07-17,6.56,2.5,,,PRiSM
+Santo Domingo,General Luna,207.1,2026-07-17,6.56,2.5,,,PRiSM
+Santo Domingo,Hulo,105.9,2026-07-17,6.56,1.3,,,PRiSM
+Santo Domingo,Mabini,140.9,2026-07-17,6.56,1.7,,,PRiSM
+Santo Domingo,Malasin,55.9,2026-07-17,6.56,0.7,,,PRiSM
+Santo Domingo,Malayantoc,315.2,2026-07-17,6.56,3.7,,,PRiSM
+Santo Domingo,Malaya (Pook Malaya),116.5,2026-07-17,6.56,1.4,,,PRiSM
+Santo Domingo,Mambarao,121.7,2026-07-17,6.56,1.4,,,PRiSM
+Santo Domingo,Poblacion,4.2,2026-07-17,6.56,0.0,,,PRiSM
+Santo Domingo,Pulong Buli,124.4,2026-07-17,6.56,1.5,,,PRiSM
+Santo Domingo,Sagaba,280.3,2026-07-17,6.56,3.3,,,PRiSM
+Santo Domingo,San Agustin,85.6,2026-07-17,6.56,1.0,,,PRiSM
+Santo Domingo,San Fabian,189.1,2026-07-17,6.56,2.2,,,PRiSM
+Santo Domingo,San Francisco,172.2,2026-07-17,6.56,2.0,,,PRiSM
+Santo Domingo,San Pascual,265.7,2026-07-17,6.56,3.2,,,PRiSM
+Santo Domingo,Santa Rita,378.1,2026-07-17,6.56,4.5,,,PRiSM
+Santo Domingo,Santo Rosario,366.7,2026-07-17,6.56,4.4,,,PRiSM
+Science City of Muñoz,Bagong Sikat,72.5,2026-06-22,6.77,0.9,,,PRiSM
+Science City of Muñoz,Balante,170.0,2026-06-22,6.77,2.0,,,PRiSM
+Science City of Muñoz,Bantug,782.9,2026-06-22,6.77,9.4,,,PRiSM
+Science City of Muñoz,Bical,345.2,2026-06-22,6.77,4.1,,,PRiSM
+Science City of Muñoz,Cabisuculan,272.9,2026-06-22,6.77,3.3,,,PRiSM
+Science City of Muñoz,Calabalabaan,126.5,2026-06-22,6.77,1.5,,,PRiSM
+Science City of Muñoz,Calisitan,54.2,2026-06-22,6.77,0.6,,,PRiSM
+Science City of Muñoz,Catalanacan,280.4,2026-06-22,6.77,3.4,,,PRiSM
+Science City of Muñoz,Curva,30.3,2026-06-22,6.77,0.4,,,PRiSM
+Science City of Muñoz,Franza,179.9,2026-06-22,6.77,2.2,,,PRiSM
+Science City of Muñoz,Gabaldon,287.5,2026-06-22,6.77,3.4,,,PRiSM
+Science City of Muñoz,Labney,378.5,2026-06-22,6.77,4.5,,,PRiSM
+Science City of Muñoz,Licaong,41.7,2026-06-22,6.77,0.5,,,PRiSM
+Science City of Muñoz,Linglingay,202.7,2026-06-22,6.77,2.4,,,PRiSM
+Science City of Muñoz,Magtanggol,121.4,2026-06-22,6.77,1.5,,,PRiSM
+Science City of Muñoz,Maligaya,297.5,2026-06-22,6.77,3.6,,,PRiSM
+Science City of Muñoz,Mangandingay,388.9,2026-06-22,6.77,4.7,,,PRiSM
+Science City of Muñoz,Mapangpang,109.2,2026-06-22,6.77,1.3,,,PRiSM
+Science City of Muñoz,Maragol,305.9,2026-06-22,6.77,3.7,,,PRiSM
+Science City of Muñoz,Matingkis,59.0,2026-06-22,6.77,0.7,,,PRiSM
+Science City of Muñoz,Naglabrahan,122.5,2026-06-22,6.77,1.5,,,PRiSM
+Science City of Muñoz,Palusapis,353.7,2026-06-22,6.77,4.2,,,PRiSM
+Science City of Muñoz,Pandalla,261.6,2026-06-22,6.77,3.1,,,PRiSM
+Science City of Muñoz,Poblacion East,11.4,2026-06-22,6.77,0.1,,,PRiSM
+Science City of Muñoz,Poblacion North,10.4,2026-06-22,6.77,0.1,,,PRiSM
+Science City of Muñoz,Poblacion South,4.3,2026-06-22,6.77,0.1,,,PRiSM
+Science City of Muñoz,Poblacion West,8.0,2026-06-22,6.77,0.1,,,PRiSM
+Science City of Muñoz,Rang-ayan,231.3,2026-06-22,6.77,2.8,,,PRiSM
+Science City of Muñoz,Rizal,283.4,2026-06-22,6.77,3.4,,,PRiSM
+Science City of Muñoz,San Andres,172.5,2026-06-22,6.77,2.1,,,PRiSM
+Science City of Muñoz,San Antonio,103.9,2026-06-22,6.77,1.2,,,PRiSM
+Science City of Muñoz,San Felipe,398.9,2026-06-22,6.77,4.8,,,PRiSM
+Science City of Muñoz,Sapang Cawayan,280.3,2026-06-22,6.77,3.4,,,PRiSM
+Science City of Muñoz,Villa Cuizon,64.9,2026-06-22,6.77,0.8,,,PRiSM
+Science City of Muñoz,Villa Isla,174.3,2026-06-22,6.77,2.1,,,PRiSM
+Science City of Muñoz,Villa Nati,274.1,2026-06-22,6.77,3.3,,,PRiSM
+Science City of Muñoz,Villa Santos,160.4,2026-06-22,6.77,1.9,,,PRiSM
+Talavera,Andal Alino (Pob.),57.3,2026-06-28,7.1,0.7,,,PRiSM
+Talavera,Bagong Sikat,73.9,2026-06-28,7.1,0.9,,,PRiSM
+Talavera,Bagong Silang,303.4,2026-06-28,7.1,3.6,,,PRiSM
+Talavera,Bakal I,349.0,2026-06-28,7.1,4.2,,,PRiSM
+Talavera,Bakal II,179.4,2026-06-28,7.1,2.2,,,PRiSM
+Talavera,Bakal III,66.5,2026-06-28,7.1,0.8,,,PRiSM
+Talavera,Baluga,199.6,2026-06-28,7.1,2.4,,,PRiSM
+Talavera,Bantug,319.1,2026-06-28,7.1,3.8,,,PRiSM
+Talavera,Bantug Hacienda,442.2,2026-06-28,7.1,5.3,,,PRiSM
+Talavera,Bantug Hamog (Basang Hamog),166.5,2026-06-28,7.1,2.0,,,PRiSM
+Talavera,Bugtong na Buli,196.2,2026-06-28,7.1,2.4,,,PRiSM
+Talavera,Bulac,128.4,2026-06-28,7.1,1.5,,,PRiSM
+Talavera,Burnay,50.1,2026-06-28,7.1,0.6,,,PRiSM
+Talavera,Caaniplahan,259.1,2026-06-28,7.1,3.1,,,PRiSM
+Talavera,Cabubulaonan,53.8,2026-06-28,7.1,0.6,,,PRiSM
+Talavera,Calipahan,52.5,2026-06-28,7.1,0.6,,,PRiSM
+Talavera,Campos,80.0,2026-06-28,7.1,1.0,,,PRiSM
+Talavera,Caputican,89.6,2026-06-28,7.1,1.1,,,PRiSM
+Talavera,Casulucan Este,239.0,2026-06-28,7.1,2.9,,,PRiSM
+Talavera,Collado,128.1,2026-06-28,7.1,1.5,,,PRiSM
+Talavera,Dimasalang Norte,103.0,2026-06-28,7.1,1.2,,,PRiSM
+Talavera,Dimasalang Sur,116.7,2026-06-28,7.1,1.4,,,PRiSM
+Talavera,Dinarayat,127.4,2026-06-28,7.1,1.5,,,PRiSM
+Talavera,Esguerra District (Pob.),12.0,2026-06-28,7.1,0.1,,,PRiSM
+Talavera,Gulod,125.0,2026-06-28,7.1,1.5,,,PRiSM
+Talavera,Homestead I,100.5,2026-06-28,7.1,1.2,,,PRiSM
+Talavera,Homestead II,88.3,2026-06-28,7.1,1.1,,,PRiSM
+Talavera,Kinalanguyan,149.1,2026-06-28,7.1,1.8,,,PRiSM
+Talavera,La Torre,270.3,2026-06-28,7.1,3.2,,,PRiSM
+Talavera,Lomboy,75.0,2026-06-28,7.1,0.9,,,PRiSM
+Talavera,Mabuhay,57.3,2026-06-28,7.1,0.7,,,PRiSM
+Talavera,Maestrang Kikay (Pob.),43.4,2026-06-28,7.1,0.5,,,PRiSM
+Talavera,Mamandil,44.7,2026-06-28,7.1,0.5,,,PRiSM
+Talavera,Marcos District (Pob.),20.9,2026-06-28,7.1,0.3,,,PRiSM
+Talavera,Matingkis,87.1,2026-06-28,7.1,1.0,,,PRiSM
+Talavera,Minabuyoc,90.6,2026-06-28,7.1,1.1,,,PRiSM
+Talavera,Pag-asa (Pob.),11.1,2026-06-28,7.1,0.1,,,PRiSM
+Talavera,Paludpod,228.5,2026-06-28,7.1,2.7,,,PRiSM
+Talavera,Pantoc Bulac,252.5,2026-06-28,7.1,3.0,,,PRiSM
+Talavera,Pinagpanaan,129.6,2026-06-28,7.1,1.6,,,PRiSM
+Talavera,Poblacion Sur,26.1,2026-06-28,7.1,0.3,,,PRiSM
+Talavera,Pula,84.5,2026-06-28,7.1,1.0,,,PRiSM
+Talavera,Pulong San Miguel (Pob.),6.5,2026-06-28,7.1,0.1,,,PRiSM
+Talavera,Purok Matias (Pob.),20.7,2026-06-28,7.1,0.2,,,PRiSM
+Talavera,Sampaloc,183.1,2026-06-28,7.1,2.2,,,PRiSM
+Talavera,San Miguel na Munti,228.5,2026-06-28,7.1,2.7,,,PRiSM
+Talavera,San Pascual,190.4,2026-06-28,7.1,2.3,,,PRiSM
+Talavera,San Ricardo,108.5,2026-06-28,7.1,1.3,,,PRiSM
+Talavera,Sibul,239.5,2026-06-28,7.1,2.9,,,PRiSM
+Talavera,Sicsican Matanda,267.1,2026-06-28,7.1,3.2,,,PRiSM
+Talavera,Tabacao,448.4,2026-06-28,7.1,5.4,,,PRiSM
+Talavera,Tagaytay,174.2,2026-06-28,7.1,2.1,,,PRiSM
+Talavera,Valle,273.8,2026-06-28,7.1,3.3,,,PRiSM
+Talugtug,Alula,417.5,2026-06-26,6.61,5.0,,,PRiSM
+Talugtug,Baybayabas,150.9,2026-06-26,6.61,1.8,,,PRiSM
+Talugtug,Buted,224.9,2026-06-26,6.61,2.7,,,PRiSM
+Talugtug,Cabiangan,252.1,2026-06-26,6.61,3.0,,,PRiSM
+Talugtug,Calisitan,207.5,2026-06-26,6.61,2.5,,,PRiSM
+Talugtug,Cinense,30.7,2026-06-26,6.61,0.4,,,PRiSM
+Talugtug,Culiat,158.1,2026-06-26,6.61,1.9,,,PRiSM
+Talugtug,Maasin,201.2,2026-06-26,6.61,2.4,,,PRiSM
+Talugtug,Magsaysay (Pob.),10.3,2026-06-26,6.61,0.1,,,PRiSM
+Talugtug,Mayamot I,109.9,2026-06-26,6.61,1.3,,,PRiSM
+Talugtug,Mayamot II,138.5,2026-06-26,6.61,1.7,,,PRiSM
+Talugtug,Nangabulan,172.2,2026-06-26,6.61,2.1,,,PRiSM
+Talugtug,Osmeña (Pob.),26.1,2026-06-26,6.61,0.3,,,PRiSM
+Talugtug,Pangit,159.7,2026-06-26,6.61,1.9,,,PRiSM
+Talugtug,Patola,259.6,2026-06-26,6.61,3.1,,,PRiSM
+Talugtug,Quezon (Pob.),4.9,2026-06-26,6.61,0.1,,,PRiSM
+Talugtug,Quirino (Pob.),3.5,2026-06-26,6.61,0.0,,,PRiSM
+Talugtug,Roxas (Pob.),5.5,2026-06-26,6.61,0.1,,,PRiSM
+Talugtug,Saguing,148.3,2026-06-26,6.61,1.8,,,PRiSM
+Talugtug,Sampaloc,271.9,2026-06-26,6.61,3.3,,,PRiSM
+Talugtug,Santa Catalina,285.5,2026-06-26,6.61,3.4,,,PRiSM
+Talugtug,Santo Domingo,330.3,2026-06-26,6.61,4.0,,,PRiSM
+Talugtug,Saringaya,180.1,2026-06-26,6.61,2.2,,,PRiSM
+Talugtug,Saverona,198.7,2026-06-26,6.61,2.4,,,PRiSM
+Talugtug,Tandoc,61.9,2026-06-26,6.61,0.7,,,PRiSM
+Talugtug,Tibag,230.8,2026-06-26,6.61,2.8,,,PRiSM
+Talugtug,Villa Boado,98.0,2026-06-26,6.61,1.2,,,PRiSM
+Talugtug,Villa Rosario,155.4,2026-06-26,6.61,1.9,,,PRiSM
+Zaragoza,Batitang,472.4,2026-07-19,6.31,25.5,,,PRiSM
+Zaragoza,Carmen,132.8,2026-07-19,6.31,7.2,,,PRiSM
+Zaragoza,Concepcion,347.0,2026-07-19,6.31,18.7,,,PRiSM
+Zaragoza,Del Pilar,422.8,2026-07-19,6.31,22.8,,,PRiSM
+Zaragoza,General Luna,503.8,2026-07-19,6.31,27.2,,,PRiSM
+Zaragoza,H. Romero,279.7,2026-07-19,6.31,15.1,,,PRiSM
+Zaragoza,Macarse,283.1,2026-07-19,6.31,15.3,,,PRiSM
+Zaragoza,Manaul,291.7,2026-07-19,6.31,15.7,,,PRiSM
+Zaragoza,Mayamot,218.6,2026-07-19,6.31,11.8,,,PRiSM
+Zaragoza,Pantoc,177.3,2026-07-19,6.31,9.6,,,PRiSM
+Zaragoza,San Isidro,109.8,2026-07-19,6.31,5.9,,,PRiSM
+Zaragoza,San Rafael,72.2,2026-07-19,6.31,3.9,,,PRiSM
+Zaragoza,Santa Cruz,97.7,2026-07-19,6.31,5.3,,,PRiSM
+Zaragoza,Santa Lucia Old,376.5,2026-07-19,6.31,20.3,,,PRiSM
+Zaragoza,Santa Lucia Young,434.1,2026-07-19,6.31,23.4,,,PRiSM
+Zaragoza,Santo Rosario Old,185.5,2026-07-19,6.31,10.0,,,PRiSM
+Zaragoza,Santo Rosario Young,212.6,2026-07-19,6.31,11.5,,,PRiSM
+Zaragoza,San Vicente (Pob.),126.4,2026-07-19,6.31,6.8,,,PRiSM
+Zaragoza,Valeriana,164.0,2026-07-19,6.31,8.9,,,PRiSM
