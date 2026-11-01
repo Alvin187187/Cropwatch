@@ -94,7 +94,7 @@ The night term is dropped when the night minimum is missing. The principle is th
 **High** (humidity, rain totals, soil moisture, nitrogen, climate, canal link). Zero at or below the low end, 1 at or above the high end, linear between:
 
 $$
-p(x) = \operatorname{clamp}\left(\frac{x - L}{H - L},\, 0,\, 1\right)
+p(x) = \min\left(1,\ \max\left(0,\ \frac{x - L}{H - L}\right)\right)
 $$
 
 **Low** is the reverse ramp: 1 at or below `L`, 0 at or above `H`.
@@ -119,7 +119,7 @@ $$
 **Storm** (bacterial leaf blight). Wind speed is the faster of the mean and the gust. Suitability is 0 at or below 12 km/h, 1 at or above 40 km/h, and linear between:
 
 $$
-p = \operatorname{clamp}\left(\frac{v - 12}{28},\, 0,\, 1\right)
+p = \min\left(1,\ \max\left(0,\ \frac{v - 12}{28}\right)\right)
 $$
 
 A storm day is wind of at least 40 km/h or a gust of at least 60 km/h. If such a day falls in the previous 14 days, `p` is at least 0.85 on the following forecast days. Typhoon tracks are not loaded, so this persistence stands in for leaf wounding and wind-driven spread after a strong-wind day.
@@ -135,11 +135,14 @@ These are the biological directions the weights follow. The cuts and the kilogra
 | Bacterial leaf blight | Warm humid weather, substantial rain, and wind that can wound leaves. Flooding or a canal link raises spread. | Temperature, humidity |
 | Rice black bug | Mild wet weather and the wet-season climate term carry more of the weight. Soil moisture and a canal link are included. Confidence stays low. | Temperature, humidity |
 
-Brown planthopper and rice black bug also take a climate modifier. Wet season base is 1. Dry season base is 0.35 for rice black bug and 0.50 for brown planthopper. The NOAA Oceanic Niño Index, a 3-month sea-surface temperature anomaly, nudges that base. A warm (El Niño) anomaly lowers it; a cool (La Niña) anomaly raises it. The nudge is national and does not separate municipalities:
+Brown planthopper and rice black bug also take a climate modifier. Wet season base is 1. Dry season base is 0.35 for rice black bug and 0.50 for brown planthopper. The NOAA Oceanic Niño Index, a 3-month sea-surface temperature anomaly, nudges that base. A warm (El Niño) anomaly lowers it; a cool (La Niña) anomaly raises it. The nudge is national and does not separate municipalities. `b` is the seasonal base:
 
 $$
-n = \operatorname{clamp}(-0.06 \times \mathrm{ONI},\, -0.12,\, 0.12), \qquad
-C = \operatorname{clamp}(\text{base} + n,\, 0,\, 1)
+n = \min\left(0.12,\ \max(-0.12,\ -0.06 \times \mathrm{ONI})\right)
+$$
+
+$$
+C = \min\left(1,\ \max(0,\ b + n)\right)
 $$
 
 Bacterial leaf blight spread is the maximum of the parts that exist: canal or river link in `{0, 1}`, flood fraction scaled by `min(1, flood / 0.25)`, and soil moisture on a ramp from 0.22 to 0.42.
@@ -217,7 +220,65 @@ $$
 
 High and Very high municipalities that touch one another form connected components of that graph. The component is the spatial cluster.
 
-The inspection path visits up to five leading places. Between two stops it uses Dijkstra's shortest path on the boundary graph, with distance in kilometers as the cost. The next stop is the remaining priority place with the shortest such path. That is a nearest-neighbor tour on shortest-path legs, not an exact solution of the traveling salesman problem.
+The inspection path visits up to five leading places. Between two stops it uses Dijkstra's shortest path on the boundary graph, with distance in kilometers as the cost. The next stop is the remaining priority place with the shortest such path. That is a nearest-neighbor tour on shortest-path legs. It is not an exact solution of the traveling salesman problem.
+
+### These are the calculations the app runs
+
+Everything above is the mathematics in the scorer, the priority reading, and the route. The other screens reuse those numbers. They do not add another model.
+
+- Analytics counts stored classes, lists which factors were strongly favorable, and marks a rise or fall with the same 0.03 threshold.
+- The inspection order sorts by risk class, then by whether rice hectares are known, then by hectares. That sort is not a second score.
+- Exposed hectares are the loaded rice area, or rice fraction times municipality area when only a satellite fraction is loaded.
+- Ask CROPWATCH rephrases the numbers already computed. It does not refit a curve.
+
+The app does not compute a probability of infection, a yield loss, or a peso loss.
+
+The weights, class cuts (0.35, 0.55, 0.72), band edges, the 6-hour blast gate, the NDVI gate of 0.2, the nitrogen assumption of 110 kg/ha, the ONI coefficient 0.06, and the priority weights are **project starting points** in `rules/*.yaml` and `api/app/scoring.py`. They were not copied as published coefficients from the studies below.
+
+### Where each formula comes from
+
+| Calculation | Source of the method |
+| --- | --- |
+| Weighted sum with weights rescaled over the factors that exist | Weighted linear combination, the standard multi-criteria suitability index. Malczewski, J. 2006. GIS-based multicriteria decision analysis: a survey of the literature. *International Journal of Geographical Information Science* 20(7):703–726. [doi:10.1080/13658810600661508](https://doi.org/10.1080/13658810600661508) |
+| Piecewise-linear peak, ramp, and band | Membership curves on each input. The shape is the project's. The idea that a favorable range sits inside a wider tolerable range is how the blast and planthopper literature reports optima inside broader limits. |
+| Environmental lapse rate, 6.5°C per 1,000 m | International Standard Atmosphere tropospheric gradient. International Civil Aviation Organization. 1993. *Manual of the ICAO Standard Atmosphere* (Doc 7488). |
+| Haversine, Earth radius 6,371 km | Great-circle distance. Sinnott, R.W. 1984. Virtues of the Haversine. *Sky and Telescope* 68(2):159. |
+| Connected clusters | Connected components of the High and Very high municipalities on the shared-boundary graph. |
+| Inspection path | Dijkstra, E.W. 1959. A note on two problems in connexion with graphs. *Numerische Mathematik* 1:269–271. [doi:10.1007/BF01386390](https://doi.org/10.1007/BF01386390). The tour then picks the nearest remaining stop. |
+| Oceanic Niño Index | NOAA Climate Prediction Center definition: the 3-month mean sea-surface temperature anomaly in the Niño 3.4 region. [ONI](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php). The coefficient −0.06, and the choice to lower the climate factor when the anomaly is warm, are project choices. |
+| Humidity z-score | $(x - \bar{x}) / s$, with $s$ the population standard deviation (divisor $N$). It runs only after two earlier years and 20 days of that calendar month are loaded. |
+| Canopy index | NDVI is the normalized difference of near-infrared and red reflectance. Tucker, C.J. 1979. Red and photographic infrared linear combinations for monitoring vegetation. *Remote Sensing of Environment* 8:127–150. [doi:10.1016/0034-4257(79)90013-0](https://doi.org/10.1016/0034-4257(79)90013-0). The gate at 0.2 is a project rule for "canopy too low to treat as rice." It is not Tucker's threshold. |
+
+Slope and wetness on the municipality card are the neighbor elevation differences written above. They are stored as terrain context. They do not enter the hazard sum.
+
+### Studies the threat rules follow
+
+The studies support the **direction** of each factor: which conditions the literature treats as favorable. They do not supply the weights or the cut points.
+
+**Rice blast.** Forecasting practice treats temperature, relative humidity, rainfall, and hours of leaf wetness as the main weather inputs, with nitrogen and variety as host factors that most operational models still leave out.
+
+- Ou, S.H. 1985. *Rice Diseases*. 2nd edition. Kew: Commonwealth Mycological Institute. Published with the International Rice Research Institute. The standard account of blast, bacterial blight, and the weather that favors them.
+- Katsantonis, D., Kadoglidou, K., Dramalis, C., Puigdollers, P. 2017. Rice blast forecasting models and their practical value: a review. *Phytopathologia Mediterranea* 56(2):187–216. [doi:10.14601/Phytopathol_Mediterr-18706](https://doi.org/10.14601/Phytopathol_Mediterr-18706). Reviews 52 blast models. The most common inputs are air temperature, then relative humidity and rainfall. Leaf wetness and nitrogen are named as important and underused.
+- Yoshino, R. 1979. Ecological studies on the penetration of rice blast fungus, *Pyricularia oryzae*, into leaf epidermal cells. *Bulletin of the Hokuriku National Agricultural Experiment Station* 22:163–221. Yoshino's operational rule counts infection-warning hours from temperature and a continuous wet period. A day with at least 6 of those hours is the high class in the form described by Nettleton et al. (2019). CROPWATCH's gate is simpler: 6 consecutive hours at or above 90% humidity and 20–28°C. The 6-hour idea is the same family. The hour test is not Yoshino's equation.
+- Nettleton, D.F., Katsantonis, D., Kalaitzidis, A., Sarafijanovic-Djukic, N., Puigdollers, P., Confalonieri, R. 2019. Predicting rice blast disease: machine learning versus process-based models. *BMC Bioinformatics* 20:514. [doi:10.1186/s12859-019-3065-1](https://doi.org/10.1186/s12859-019-3065-1).
+- The night term follows the same literature: sporulation is favored by high humidity and cool nights, reported around 17–23°C (reviewed in Katsantonis et al. 2017, citing Webster and Gunnell 1992). The app's night core is 20–24°C.
+
+**Brown planthopper.** Warm, humid, crowded rice favors the insect. Heavy rain is treated as unfavorable because it knocks hoppers from the plant, which is why this rule uses a heavy-rain penalty while bacterial blight uses rain as a positive factor.
+
+- Heong, K.L., Hardy, B., editors. 2009. *Planthoppers: New Threats to the Sustainability of Intensive Rice Production Systems in Asia*. Los Baños: International Rice Research Institute.
+- International Rice Research Institute. Rice Knowledge Bank. Brown planthopper. [Fact sheet](http://www.knowledgebank.irri.org/training/fact-sheets/pest-management/insects/item/brown-planthopper).
+
+**Bacterial leaf blight.** Warm humid weather, rain, flooding, and wind that wounds the leaf favor spread. High nitrogen favors the disease on susceptible varieties.
+
+- Mew, T.W. 1987. Current status and future prospects of research on bacterial blight of rice. *Annual Review of Phytopathology* 25:359–382. [doi:10.1146/annurev.py.25.090187.002043](https://doi.org/10.1146/annurev.py.25.090187.002043).
+- Philippine Rice Research Institute. Diseases of the rice plant in the Philippines. [Flash cards](https://www.philrice.gov.ph/wp-content/uploads/2023/02/Diseases-of-the-rice-plant-in-the-Philippines-flash-cards.pdf). Lists warm, humid, rainy weather and excessive nitrogen among the conditions that favor bacterial leaf blight. The app's temperature core, 28.5–30.5°C, sits in that warm band. The edges are still a project choice.
+
+**Rice black bug.** The insect is documented as a wetland rice pest. A weather-response curve comparable to blast or blight is not established, which is why this rule is marked low confidence and gives more weight to the wet-season climate term than to a tight temperature peak.
+
+- Joshi, R.C., Barrion, A.T., Sebastian, L.S., editors. 2007. *Rice Black Bugs: Taxonomy, Ecology, and Management of Invasive Species*. Science City of Muñoz: Philippine Rice Research Institute.
+- International Rice Research Institute. Rice Knowledge Bank. Black bug. [Fact sheet](http://www.knowledgebank.irri.org/training/fact-sheets/pest-management/insects/item/black-bug). Describes the insect as common in rainfed and irrigated wetlands and in poorly drained fields.
+
+**Shared limits.** Ou (1985), the Katsantonis review, and the PhilRice disease cards are the scientific context for looking at weather, nitrogen, and crop stage. They are not an endorsement of these scores as PhilRice or IRRI guidance. A high class means the loaded weather sits in a favorable part of a project rule. It does not mean the pest or disease is present.
 
 ## Features
 
