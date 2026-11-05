@@ -6,6 +6,8 @@ Decision-support map for rice pest and disease **conditions** in Nueva Ecija. It
 
 Built for the provincial agriculture office, municipal agriculture staff, and field inspection teams.
 
+## Functionalities
+
 ## What it does
 
 CROPWATCH scores each municipality for four rice threats, then ranks where an inspection team should go first. A high score means the weather and setting are favorable for that threat. It is not a confirmation that the pest or disease is in the field.
