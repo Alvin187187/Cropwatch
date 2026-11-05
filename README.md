@@ -7,6 +7,8 @@ Decision-support map for rice pest and disease **conditions** in Nueva Ecija. It
 Built for the provincial agriculture office, municipal agriculture staff, and field inspection teams.
 
 ## Functionalities
+- **GIS Mapping** 
+- **Analytical Metrics**
 
 ## What it does
 
